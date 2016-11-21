@@ -114,3 +114,15 @@ The `sprites` mixin generates identical output to the CSS template
   font-style: normal;
   font-weight: 500;
   src: url(../fonts/Roboto-Medium.woff2) format("woff2"); }
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+  body {
+    background: grey; } }
+
+@media (max-width: 414px) {
+  body {
+    background: green; } }
+
+@media (min-width: 668px) and (max-width: 768px) {
+  body {
+    background: #000; } }
