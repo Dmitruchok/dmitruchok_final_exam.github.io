@@ -171,7 +171,7 @@ The `sprites` mixin generates identical output to the CSS template
                 border-radius: 20px; }
   section {
     text-align: center;
-    margin: 35px 10px; }
+    margin: 35px 10px 0; }
     section h2 {
       font-size: 23px;
       color: #333333;
@@ -206,7 +206,27 @@ The `sprites` mixin generates identical output to the CSS template
         font-size: 26px; }
       section .section-step-three .step-three-text .step-three-p {
         font-size: 14px;
-        color: #fff; } }
+        color: #fff; }
+  .face {
+    text-align: center;
+    font-family: "Montserrat-bold";
+    margin: 25px; }
+    .face h2 {
+      font-size: 22px;
+      color: #333333;
+      margin-bottom: 18px; }
+    .face .face-one-text {
+      background: url("../img/hunter.png") no-repeat;
+      background-position: top;
+      width: 222px;
+      margin: 0 auto;
+      font-size: 15px; }
+      .face .face-one-text .face-one-h4 {
+        padding-top: 136px;
+        margin: 0;
+        font-size: 14px; }
+      .face .face-one-text .face-one-p {
+        font-family: 'Roboto-Ligh'; } }
 
 @media (min-width: 668px) and (max-width: 768px) {
   body {

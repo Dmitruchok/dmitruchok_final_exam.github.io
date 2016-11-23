@@ -1,0 +1,29 @@
+.face {
+  text-align: center;
+  font-family: $header-font;
+  margin: 25px;
+
+  h2 {
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 18px;
+  }
+
+  .face-one-text {
+    background: url('../img/hunter.png') no-repeat;
+    background-position: top;
+    width: 222px;
+    margin: 0 auto;
+    font-size: 15px;
+    .face-one-h4 {
+      padding-top: 136px;
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .face-one-p {
+      font-family: 'Roboto-Ligh';
+    }
+  }
+
+}
