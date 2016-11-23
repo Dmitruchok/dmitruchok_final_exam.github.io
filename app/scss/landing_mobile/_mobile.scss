@@ -1,5 +1,4 @@
-@media (max-width: 414px){
-  body {
-    background: green;
-  }
+@media (max-width: 320px){
+  @import "../scss/landing_mobile/_header";
+  @import "../scss/landing_mobile/_section";
 }

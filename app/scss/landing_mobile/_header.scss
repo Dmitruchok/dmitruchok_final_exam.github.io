@@ -1,0 +1,63 @@
+header {
+  background: url('../img/mobilibg.png') no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: $header-font;
+  font-size: 14px;
+
+  .header-log-container {
+    padding-top: 30px;
+    padding-bottom: 105px;
+
+    .log-container-login{
+      display: inline-block;
+      margin-right: 16px;
+      text-decoration: none;
+      color: $header-color;
+    }
+
+    .log-container-singap {
+      text-decoration: none;
+      color: $header-color;
+      padding: 8px 15px;
+      border: 2px solid #fff;
+      border-radius: 20px;
+    }
+  }
+
+  .header-text-container {
+    width: 300px;
+    margin: 0 auto;
+    color: $header-color;
+    padding-bottom: 138px;
+    p {
+      font-size: 20px;
+    }
+
+    h2 {
+      font-size: 35px;
+      margin-top: 25px;
+      margin-bottom: 15px;
+      line-height: 35px;
+    }
+
+    span {
+      display: block;
+      margin: 0 auto 16px;
+      width: 215px;
+      font-size: 18px;
+      font-family: 'Roboto-Ligh';
+    }
+
+    input {
+      display: block;
+      background-color: #ff4e50;
+      outline: none;
+      border: none;
+      margin: 0 auto;
+      padding: 12px 50px;
+      color: $header-color;
+      border-radius: 20px;
+    }
+  }
+}

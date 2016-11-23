@@ -44,7 +44,7 @@ The `sprites` mixin generates identical output to the CSS template
 @include sprites($spritesheet-sprites);
 */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat-bold';
   font-style: normal;
   font-weight: 700;
   src: url(../fonts/Montserrat-bold.woff2) format("woff2"); }
@@ -56,31 +56,31 @@ The `sprites` mixin generates identical output to the CSS template
   src: url(../fonts/Montserrat.woff2) format("woff2"); }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-black';
   font-style: normal;
   font-weight: 900;
   src: url(../fonts/Roboto-black.woff2) format("woff2"); }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-black-italic';
   font-style: italic;
   font-weight: 900;
   src: url(../fonts/Roboto-black-italic.woff2) format("woff2"); }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Ligh';
   font-style: normal;
   font-weight: 300;
   src: url(../fonts/Roboto-Light.woff2) format("woff2"); }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Medium';
   font-style: normal;
   font-weight: 500;
   src: url(../fonts/Roboto-Medium.woff2) format("woff2"); }
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat-bold';
   font-style: normal;
   font-weight: 700;
   src: url(../fonts/Montserrat-bold.woff2) format("woff2"); }
@@ -92,25 +92,25 @@ The `sprites` mixin generates identical output to the CSS template
   src: url(../fonts/Montserrat.woff2) format("woff2"); }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-black';
   font-style: normal;
   font-weight: 900;
   src: url(../fonts/Roboto-black.woff2) format("woff2"); }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-black-italic';
   font-style: italic;
   font-weight: 900;
   src: url(../fonts/Roboto-black-italic.woff2) format("woff2"); }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Ligh';
   font-style: normal;
   font-weight: 300;
   src: url(../fonts/Roboto-Light.woff2) format("woff2"); }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Medium';
   font-style: normal;
   font-weight: 500;
   src: url(../fonts/Roboto-Medium.woff2) format("woff2"); }
@@ -119,9 +119,94 @@ The `sprites` mixin generates identical output to the CSS template
   body {
     background: grey; } }
 
-@media (max-width: 414px) {
-  body {
-    background: green; } }
+@media (max-width: 320px) {
+  header {
+    background: url("../img/mobilibg.png") no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: "Montserrat-bold";
+    font-size: 14px; }
+    header .header-log-container {
+      padding-top: 30px;
+      padding-bottom: 105px; }
+      header .header-log-container .log-container-login {
+        display: inline-block;
+        margin-right: 16px;
+        text-decoration: none;
+        color: #f7f7f7; }
+      header .header-log-container .log-container-singap {
+        text-decoration: none;
+        color: #f7f7f7;
+        padding: 8px 15px;
+        border: 2px solid #fff;
+        -webkit-border-radius: 20px;
+                border-radius: 20px; }
+    header .header-text-container {
+      width: 300px;
+      margin: 0 auto;
+      color: #f7f7f7;
+      padding-bottom: 138px; }
+      header .header-text-container p {
+        font-size: 20px; }
+      header .header-text-container h2 {
+        font-size: 35px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        line-height: 35px; }
+      header .header-text-container span {
+        display: block;
+        margin: 0 auto 16px;
+        width: 215px;
+        font-size: 18px;
+        font-family: 'Roboto-Ligh'; }
+      header .header-text-container input {
+        display: block;
+        background-color: #ff4e50;
+        outline: none;
+        border: none;
+        margin: 0 auto;
+        padding: 12px 50px;
+        color: #f7f7f7;
+        -webkit-border-radius: 20px;
+                border-radius: 20px; }
+  section {
+    text-align: center;
+    margin: 35px 10px; }
+    section h2 {
+      font-size: 23px;
+      color: #333333;
+      margin-bottom: 10px; }
+    section .section-step-one {
+      padding: 83px 0 10px 20px;
+      background: url("../img/step1.png") no-repeat;
+      text-align: left; }
+      section .section-step-one .step-one-text .step-one-h2 {
+        color: #f7f7f7;
+        font-size: 26px; }
+      section .section-step-one .step-one-text .step-one-p {
+        font-size: 14px;
+        color: #fff; }
+    section .section-step-two {
+      padding: 123px 0 10px 20px;
+      background: url("../img/step2.png") no-repeat;
+      text-align: left; }
+      section .section-step-two .step-two-text .step-two-h2 {
+        color: #f7f7f7;
+        font-size: 26px; }
+      section .section-step-two .step-two-text .step-two-p {
+        font-size: 14px;
+        color: #fff; }
+    section .section-step-three {
+      margin-top: 10px;
+      padding: 80px 0 10px 20px;
+      background: url("../img/step3.png") no-repeat;
+      text-align: left; }
+      section .section-step-three .step-three-text .step-three-h2 {
+        color: #f7f7f7;
+        font-size: 26px; }
+      section .section-step-three .step-three-text .step-three-p {
+        font-size: 14px;
+        color: #fff; } }
 
 @media (min-width: 668px) and (max-width: 768px) {
   body {
