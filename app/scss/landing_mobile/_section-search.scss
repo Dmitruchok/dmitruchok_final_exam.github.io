@@ -1,8 +1,9 @@
 @import "../scss/_mixins";
 
 .search {
+  font-family: $header-font;
   border-bottom: 4px solid #ff4e50;
-  padding-bottom: 38px;
+  padding-bottom: 41px;
   margin: 35px 0 15px;
   h2 {
     font-size: 23px;
@@ -13,12 +14,14 @@
 
   span {
     display: block;
+    font-family: 'Roboto-Ligh';
     color: #696969;
-    font-size: 17px;
+    font-size: 19px;
     margin-bottom: 16px;
   }
 
   .search-enter-text {
+    font-family: 'Roboto-Ligh';
     width: 275px;
     height: 35px;
     margin-bottom: 10px;
@@ -32,8 +35,9 @@
       outline: none;
       border: none;
       margin: 0 auto;
-      padding: 12px 83px;
+      padding: 12px 84px;
       color: $header-color;
       border-radius: 20px;
+      font-size: 14px;
   }
 }
