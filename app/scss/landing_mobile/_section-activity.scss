@@ -1,0 +1,67 @@
+  @import "../scss/_mixins";
+
+.activity {
+  color: $header-color;
+  h2 {
+    font-size: 23px;
+    color: #333333;
+    margin-top: 15px;
+    margin-top: 38px;
+  }
+
+  .section-activity-one {
+    background: url('../img/activity1.png') no-repeat;
+    .activity-one-h3 {
+      padding: 43px 0 50px 0;
+      @include mobile-activity-h3;
+    }
+  }
+
+  .section-activity-two {
+    background: url('../img/activity2.png') no-repeat;
+    .activity-two-h3 {
+      padding: 46px 0 47px 0;
+      @include mobile-activity-h3;
+    }
+  }
+
+  .section-activity-three {
+    background: url('../img/activity3.png') no-repeat;
+    .activity-three-h3 {
+      padding: 30px 50px 38px;
+      @include mobile-activity-h3;
+    }
+  }
+
+  .section-activity-four {
+    background: url('../img/activity4.png') no-repeat;
+    .activity-four-h3 {
+      padding: 47px 0;
+      @include mobile-activity-h3;
+    }
+  }
+
+  .section-activity-five {
+    background: url('../img/activity5.png') no-repeat;
+    .activity-five-h3 {
+      padding: 47px 0;
+      @include mobile-activity-h3;
+    }
+  }
+
+  .section-activity-six {
+    background: url('../img/activity6.png') no-repeat;
+    .activity-six-h3 {
+      padding: 47px 0;
+      @include mobile-activity-h3;
+    }
+  }
+
+  .section-activity-seven {
+    background: url('../img/activity7.png') no-repeat;
+    .activity-seven-h3 {
+      padding: 42px 0 50px;
+      @include mobile-activity-h3;
+    }
+  }
+}

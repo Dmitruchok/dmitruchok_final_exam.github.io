@@ -1,0 +1,64 @@
+@import "../scss/_mixins";
+
+footer {
+  text-align: center;
+  font-family: $header-font;
+
+  h4 {
+    color: #ff4e50;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+
+  .foot-box-one {
+    font-size: 14px;
+
+    span {
+      color: #333333;
+    }
+    .foot-nav-company {
+      margin-top: 3px;
+      padding: 0;
+        li {
+          display: inline-block;
+          font-family: 'Roboto-Ligh';
+          list-style: none;
+          padding: 0 2px 0 7px;
+          font-size: 16px;
+
+          a {
+            color: #b8b8b8;
+            text-decoration: none;
+          }
+        }
+    }
+
+  }
+
+
+  .foot-box-two {
+    font-size: 13px;
+    span {
+      color: #333333;
+    }
+    .foot-nav-partners {
+      padding: 0;
+      li {
+        list-style: none;
+        font-size: 16px;
+
+        a {
+          display: block;
+          font-size: 12px;
+          color: #b8b8b8;
+          text-decoration: none;
+          margin-bottom: 10px;
+        }
+      }
+      &::after {
+        content: url('../img/fot-logo.png');
+      }
+    }
+  }
+}

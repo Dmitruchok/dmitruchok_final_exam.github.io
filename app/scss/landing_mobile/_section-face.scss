@@ -1,3 +1,5 @@
+  @import "../scss/_mixins";
+
 .face {
   text-align: center;
   font-family: $header-font;
@@ -11,19 +13,65 @@
 
   .face-one-text {
     background: url('../img/hunter.png') no-repeat;
-    background-position: top;
-    width: 222px;
-    margin: 0 auto;
-    font-size: 15px;
+    @include section-face-img;
     .face-one-h4 {
-      padding-top: 136px;
-      margin: 0;
-      font-size: 14px;
+      @include section-face-h4;
     }
 
     .face-one-p {
       font-family: 'Roboto-Ligh';
     }
+  }
+
+  .face-two-text {
+    background: url('../img/marsha.png') no-repeat;
+    @include section-face-img;
+    .face-two-h4 {
+      @include section-face-h4;
+      margin-top: 28px;
+    }
+
+    .face-two-p {
+      font-family: 'Roboto-Ligh';
+    }
+  }
+
+  .face-three-text {
+    background: url('../img/walker.png') no-repeat;
+    @include section-face-img;
+    .face-three-h4 {
+      @include section-face-h4;
+      margin-top: 26px;
+    }
+
+    .face-three-p {
+      font-family: 'Roboto-Ligh';
+    }
+  }
+
+  .face-four-text {
+    background: url('../img/hunter4.png') no-repeat;
+    @include section-face-img;
+    .face-four-h4 {
+      @include section-face-h4;
+      margin-top: 28px;
+    }
+
+    .face-four-p {
+      font-family: 'Roboto-Ligh';
+    }
+  }
+
+  .section-face-input {
+    font-size: 14px;
+    display: block;
+    background-color: #fff;
+    outline: none;
+    border: 2px solid #ff4e50;
+    margin: 25px auto;
+    padding: 9px 70px;
+    color: #ff4e50;
+    border-radius: 20px;
   }
 
 }
