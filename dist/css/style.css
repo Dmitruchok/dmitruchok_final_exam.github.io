@@ -279,61 +279,49 @@ The `sprites` mixin generates identical output to the CSS template
               border-radius: 20px; }
   .activity {
     font-family: "Montserrat-bold";
-    color: #f7f7f7; }
+    color: #f7f7f7;
+    overflow: hidden;
+    height: 1110px; }
     .activity h2 {
       font-size: 22px;
       color: #333333;
       margin-top: 15px;
       margin-top: 38px; }
-    .activity .section-activity-one {
-      background: url("../img/activity1.png") no-repeat; }
-      .activity .section-activity-one .activity-one-h3 {
-        padding: 45px 0 50px 0;
-        font-size: 22px;
-        margin-top: 10px;
-        margin-bottom: 0; }
-    .activity .section-activity-two {
-      background: url("../img/activity2.png") no-repeat; }
-      .activity .section-activity-two .activity-two-h3 {
-        padding: 48px 0 47px 0;
-        font-size: 22px;
-        margin-top: 10px;
-        margin-bottom: 0; }
-    .activity .section-activity-three {
-      background: url("../img/activity3.png") no-repeat; }
-      .activity .section-activity-three .activity-three-h3 {
-        padding: 31px 50px 38px;
-        font-size: 22px;
-        margin-top: 10px;
-        margin-bottom: 0; }
-    .activity .section-activity-four {
-      background: url("../img/activity4.png") no-repeat; }
-      .activity .section-activity-four .activity-four-h3 {
-        padding: 47px 0;
-        font-size: 22px;
-        margin-top: 10px;
-        margin-bottom: 0; }
-    .activity .section-activity-five {
-      background: url("../img/activity5.png") no-repeat; }
-      .activity .section-activity-five .activity-five-h3 {
-        padding: 47px 0;
-        font-size: 22px;
-        margin-top: 10px;
-        margin-bottom: 0; }
-    .activity .section-activity-six {
-      background: url("../img/activity6.png") no-repeat; }
-      .activity .section-activity-six .activity-six-h3 {
-        padding: 49px 0;
-        font-size: 22px;
-        margin-top: 10px;
-        margin-bottom: 0; }
-    .activity .section-activity-seven {
-      background: url("../img/activity7.png") no-repeat; }
-      .activity .section-activity-seven .activity-seven-h3 {
-        padding: 42px 0 50px;
-        font-size: 22px;
-        margin-top: 10px;
-        margin-bottom: 0; }
+    .activity .section-activity-1 .activity-one-h3 {
+      padding: 45px 0 50px 0;
+      font-size: 22px;
+      margin-top: 10px;
+      margin-bottom: 0; }
+    .activity .section-activity-2 .activity-two-h3 {
+      padding: 48px 0 47px 0;
+      font-size: 22px;
+      margin-top: 10px;
+      margin-bottom: 0; }
+    .activity .section-activity-3 .activity-three-h3 {
+      padding: 31px 50px 38px;
+      font-size: 22px;
+      margin-top: 10px;
+      margin-bottom: 0; }
+    .activity .section-activity-4 .activity-four-h3 {
+      padding: 47px 0;
+      font-size: 22px;
+      margin-top: 10px;
+      margin-bottom: 0; }
+    .activity .section-activity-5 .activity-five-h3 {
+      padding: 47px 0;
+      font-size: 22px;
+      margin-top: 10px;
+      margin-bottom: 0; }
+    .activity .section-activity-6 .activity-six-h3 {
+      padding: 49px 0;
+      font-size: 22px;
+      margin-top: 10px;
+      margin-bottom: 0; }
+    .activity .section-activity-7 .activity-seven-h3 {
+      padding: 42px 0 50px;
+      font-size: 22px;
+      margin-top: 10px;
+      margin-bottom: 0; }
   .search {
     font-family: "Montserrat-bold";
     border-bottom: 4px solid #ff4e50;

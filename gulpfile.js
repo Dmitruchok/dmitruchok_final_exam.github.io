@@ -37,10 +37,15 @@ var gulp = require('gulp'),
     .pipe(browserSync.reload({stream: true}))
   });
 
-  gulp.task('img', function () {
-    return gulp.src('app/img/**/*.*')
-    .pipe(gulp.dest('dist/img'))
-    .pipe(browserSync.reload({stream: true}))
+  gulp.task('img', function() {
+    return gulp.src('app/img/**/*') // Берем все изображения из app
+    .pipe(cache(imagemin({ /// Сжимаем их с наилучшими настройками с учетом кеширования
+    interlaced: true,
+    progressive: true,
+    svgoPlugins: [{removeViewBox: false}],
+    use: [pngquant()]
+  })))
+    .pipe(gulp.dest('dist/img')); // Выгружаем на продакшен
   });
 
   gulp.task('fonts', function () {
@@ -95,17 +100,6 @@ gulp.task('watch', ['browser-sync', 'scss', 'css', 'html', 'js', 'img', 'fonts',
 
 gulp.task('clean', function() {
   return del.sync('dist'); // Удаляем папку dist перед сборкой
-});
-
-gulp.task('img', function() {
-  return gulp.src('app/img/**/*') // Берем все изображения из app
-  .pipe(cache(imagemin({ /// Сжимаем их с наилучшими настройками с учетом кеширования
-  interlaced: true,
-  progressive: true,
-  svgoPlugins: [{removeViewBox: false}],
-  use: [pngquant()]
-})))
-  .pipe(gulp.dest('dist/img')); // Выгружаем на продакшен
 });
 
 

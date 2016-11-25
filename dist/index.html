@@ -101,7 +101,7 @@
         </div>
 
       </div>
-<img src=""/>
+
       <input class="section-face-input" type="button" value="See other partners">
 
     </section>
@@ -110,13 +110,12 @@
 
       <h2>Discover holiday activity ideas</h2>
 
-      <script type="text/tmpl" id="pic-box">
+      <script type="text/tmpl" id="activity-pic-containar">
       <% for( var i=0; i < data.length; i++ ) {%>
-
-        <div class= "pic-<%= i+1 %>">
-            <h3><img src="<%= data[i].previewURL %>"/></h3>
+        <div class="pic-box-<%= i+1 %>">
+          <h3></h3>
+          <img src="<%= data[i].previewURL %>"/>
         </div>
-
         <% }; %>
       </script>
 

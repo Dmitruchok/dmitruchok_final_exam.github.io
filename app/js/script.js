@@ -1,6 +1,6 @@
 $(function () {
 
-var html = $('#pic-box').html();
+var html = $('#activity-pic-containar').html();
 
   function loadPicture() {
     var  inputText = $( '.search-enter-text' ).val();
@@ -17,18 +17,28 @@ var html = $('#pic-box').html();
     }).done(function (data) {
 
       var template = $(data.hits);
-      console.log(template);
 
       var content = tmpl( html, {
         data: template
       });
-      $( '.activity' ).append( content );
-      
+      var result = $( '.activity' ).append( '<div class="result"></div>' )
+      $( '.result' ).append( content );
     })
   };
 
-$('.search-button').click(function () {
   loadPicture();
+
+$('.search-button').click(function () {
+  $('.result').remove('.result');
+  loadPicture();
+});
+
+$('.search-enter-text' ).keypress(function enterText( e ) {
+  if( e.keyCode === 13 ) {
+    $( '.result' ).remove( '.result' );
+    e.preventDefault();
+    loadPicture();
+  };
 })
 
 });

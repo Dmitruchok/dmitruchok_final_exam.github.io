@@ -3,6 +3,8 @@
 .activity {
   font-family: $header-font;
   color: $header-color;
+  overflow: hidden;
+  height: 1110px;
   h2 {
     font-size: 22px;
     color: #333333;
@@ -10,56 +12,56 @@
     margin-top: 38px;
   }
 
-  .section-activity-one {
-    background: url('../img/activity1.png') no-repeat;
+  .section-activity-1 {
+  //  background: url('../img/activity1.png') no-repeat;
     .activity-one-h3 {
       padding: 45px 0 50px 0;
       @include mobile-activity-h3;
     }
   }
 
-  .section-activity-two {
-    background: url('../img/activity2.png') no-repeat;
+  .section-activity-2 {
+  //  background: url('../img/activity2.png') no-repeat;
     .activity-two-h3 {
       padding: 48px 0 47px 0;
       @include mobile-activity-h3;
     }
   }
 
-  .section-activity-three {
-    background: url('../img/activity3.png') no-repeat;
+  .section-activity-3 {
+  //  background: url('../img/activity3.png') no-repeat;
     .activity-three-h3 {
       padding: 31px 50px 38px;
       @include mobile-activity-h3;
     }
   }
 
-  .section-activity-four {
-    background: url('../img/activity4.png') no-repeat;
+  .section-activity-4 {
+  //  background: url('../img/activity4.png') no-repeat;
     .activity-four-h3 {
       padding: 47px 0;
       @include mobile-activity-h3;
     }
   }
 
-  .section-activity-five {
-    background: url('../img/activity5.png') no-repeat;
+  .section-activity-5 {
+//    background: url('../img/activity5.png') no-repeat;
     .activity-five-h3 {
       padding: 47px 0;
       @include mobile-activity-h3;
     }
   }
 
-  .section-activity-six {
-    background: url('../img/activity6.png') no-repeat;
+  .section-activity-6 {
+  //  background: url('../img/activity6.png') no-repeat;
     .activity-six-h3 {
       padding: 49px 0;
       @include mobile-activity-h3;
     }
   }
 
-  .section-activity-seven {
-    background: url('../img/activity7.png') no-repeat;
+  .section-activity-7 {
+  //  background: url('../img/activity7.png') no-repeat;
     .activity-seven-h3 {
       padding: 42px 0 50px;
       @include mobile-activity-h3;
