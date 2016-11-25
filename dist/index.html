@@ -111,8 +111,9 @@
       <h2>Discover holiday activity ideas</h2>
 
       <script type="text/tmpl" id="pic-box">
-      <% for(var i=0; i < data.length; i++ ) {%>
-        <div >
+      <% for( var i=0; i < data.length; i++ ) {%>
+
+        <div class= "pic-<%= i+1 %>">
             <h3><img src="<%= data[i].previewURL %>"/></h3>
         </div>
 

@@ -15,6 +15,7 @@ var html = $('#pic-box').html();
         console.log( 'Appired problem!!' );
       }
     }).done(function (data) {
+
       var template = $(data.hits);
       console.log(template);
 
@@ -22,6 +23,7 @@ var html = $('#pic-box').html();
         data: template
       });
       $( '.activity' ).append( content );
+      
     })
   };
 
