@@ -7,21 +7,30 @@ header {
 
   .header-log-container {
     padding-top: 30px;
-    padding-bottom: 105px;
+    //padding-bottom: 105px;
+    color: $header-color;
 
-    .log-container-login{
-      display: inline-block;
-      margin-right: 16px;
-      text-decoration: none;
-      color: $header-color;
+    .log-container-box {
+
+      .log-container-login{
+        display: inline-block;
+        margin-right: 16px;
+        text-decoration: none;
+        color: $header-color;
+      }
+
+      .log-container-singap {
+        text-decoration: none;
+        color: $header-color;
+        padding: 8px 15px;
+        border: 2px solid #fff;
+        border-radius: 20px;
+      }
     }
 
-    .log-container-singap {
-      text-decoration: none;
-      color: $header-color;
-      padding: 8px 15px;
-      border: 2px solid #fff;
-      border-radius: 20px;
+    .log-container-p {
+      font-size: 21px;
+      margin-top: 124px;
     }
   }
 
@@ -30,12 +39,9 @@ header {
     margin: 0 auto;
     color: $header-color;
     padding-bottom: 138px;
-    p {
-      font-size: 20px;
-    }
 
     h2 {
-      font-size: 35px;
+      font-size: 30px;
       margin-top: 25px;
       margin-bottom: 15px;
       line-height: 35px;

@@ -1,5 +1,3 @@
 @media (min-width: 668px) and (max-width: 768px) {
-  body {
-    background: #000;
-  }
+    @import "../scss/landing_tablet/_tablet_src";
 }

@@ -1,0 +1,44 @@
+section {
+  text-align: center;
+  margin: 95px 10px 0;
+
+  h2{
+    font-size: 23px;
+    color: #333333;
+    margin-bottom: 28px;
+  }
+
+  .section-step-one {
+    padding: 95px 0 10px 20px;
+    background: url('../img/tablet/step1.png') no-repeat;
+    width: 30%;
+    display: inline-block;
+
+    h2 {
+      margin-top: 171px;
+    }
+    }
+
+  .section-step-two {
+    padding: 113px 0 10px 20px;
+    background: url('../img/tablet/step2.png') no-repeat;
+    width: 30%;
+    display: inline-block;
+
+    h2 {
+      margin-top: 171px;
+    }
+  }
+
+  .section-step-three {
+    margin-top: 4px;
+    padding: 83px 0 10px 20px;
+    background: url('../img/tablet/step3.png') no-repeat;
+    width: 30%;
+    display: inline-block;
+
+    h2 {
+      margin-top: 171px;
+    }
+  }
+}

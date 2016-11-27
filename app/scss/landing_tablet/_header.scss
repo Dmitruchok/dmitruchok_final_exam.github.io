@@ -1,0 +1,45 @@
+header {
+  background: url('../img/tabletbg.png') no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: $header-font;
+  font-size: 14px;
+  .header-log-container {
+    padding-top: 48px;
+    padding-bottom: 150px;
+    padding-right: 52px;
+    .log-container-box {
+      float: right;
+      margin-left: 340px;
+    }
+
+    .log-container-p {
+      margin-top: 0;
+      float: left;
+      font-size: 21px;
+      margin-left: 50px;
+    }
+  }
+
+  .header-text-container {
+    clear: both;
+    width: 70%;
+    padding-bottom: 234px;
+    h2 {
+      font-size: 52px;
+      line-height: 60px;
+      margin-top: 20px;
+      margin-bottom: 25px;
+    }
+
+    span {
+      width: 100%;
+      font-size: 25px;
+      margin: 0 auto 34px;
+    }
+
+    input {
+      padding: 12px 25px;
+    }
+  }
+}

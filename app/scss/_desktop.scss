@@ -1,5 +1,3 @@
 @media (min-width: 1025px) and (max-width: 1366px) {
-  body {
-    background: grey;
-  }
+    @import "../scss/landing_desktop/_desktop_src";
 }
