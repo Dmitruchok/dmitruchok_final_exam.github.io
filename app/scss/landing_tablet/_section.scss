@@ -9,36 +9,23 @@ section {
   }
 
   .section-step-one {
+    display: none;
     padding: 95px 0 10px 20px;
-    background: url('../img/tablet/step1.png') no-repeat;
     width: 30%;
-    display: inline-block;
-
-    h2 {
-      margin-top: 171px;
-    }
-    }
+  }
 
   .section-step-two {
+    display: none;
     padding: 113px 0 10px 20px;
-    background: url('../img/tablet/step2.png') no-repeat;
     width: 30%;
-    display: inline-block;
-
-    h2 {
-      margin-top: 171px;
-    }
   }
+
 
   .section-step-three {
+    display: none;
     margin-top: 4px;
     padding: 83px 0 10px 20px;
-    background: url('../img/tablet/step3.png') no-repeat;
     width: 30%;
-    display: inline-block;
-
-    h2 {
-      margin-top: 171px;
-    }
   }
+
 }

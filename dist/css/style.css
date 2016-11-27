@@ -180,6 +180,8 @@ The `sprites` mixin generates identical output to the CSS template
     section .section-step-three {
       margin-top: 6px;
       text-align: left; }
+    section .carusel-container {
+      display: none; }
   .face {
     text-align: center;
     font-family: "Montserrat-bold";
@@ -418,6 +420,8 @@ The `sprites` mixin generates identical output to the CSS template
     section .section-step-three {
       margin-top: 6px;
       text-align: left; }
+    section .carusel-container {
+      display: none; }
   .face {
     text-align: center;
     font-family: "Montserrat-bold";
@@ -631,24 +635,27 @@ The `sprites` mixin generates identical output to the CSS template
       color: #333333;
       margin-bottom: 28px; }
     section .section-step-one {
+      display: none;
       padding: 95px 0 10px 20px;
-      background: url("../img/tablet/step1.png") no-repeat;
-      width: 30%;
-      display: inline-block; }
-      section .section-step-one h2 {
-        margin-top: 171px; }
+      width: 30%; }
     section .section-step-two {
+      display: none;
       padding: 113px 0 10px 20px;
-      background: url("../img/tablet/step2.png") no-repeat;
-      width: 30%;
-      display: inline-block; }
-      section .section-step-two h2 {
-        margin-top: 171px; }
+      width: 30%; }
     section .section-step-three {
+      display: none;
       margin-top: 4px;
       padding: 83px 0 10px 20px;
-      background: url("../img/tablet/step3.png") no-repeat;
-      width: 30%;
-      display: inline-block; }
-      section .section-step-three h2 {
-        margin-top: 171px; } }
+      width: 30%; }
+  .carusel-container {
+    display: block;
+    width: 300px;
+    overflow: hidden;
+    float: left; }
+    .carusel-container .carusel-block .carusel .carusel-element {
+      list-style: none; }
+  .face {
+    clear: both;
+    text-align: center;
+    font-family: "Montserrat-bold";
+    margin: 25px; } }
