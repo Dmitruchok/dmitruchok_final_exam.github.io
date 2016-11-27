@@ -41,4 +41,8 @@ $('.search-enter-text' ).keypress(function enterText( e ) {
   };
 })
 
+$('#activity-pic-containar').masonry({
+  itemSelector: '.item'
+})
+
 });

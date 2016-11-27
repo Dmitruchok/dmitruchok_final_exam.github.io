@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <!-- Fotorama -->
     <link href="css/fotorama.css" rel="stylesheet">
+    <!-- Masonry -->
+    <script src="js/masonry.pkgd.min.js"></script>
 
   </head>
   <body>
@@ -112,9 +114,9 @@
 
       <script type="text/tmpl" id="activity-pic-containar">
       <% for( var i=0; i < data.length; i++ ) {%>
-        <div class="pic-box-<%= i+1 %>">
-          <h3></h3>
-          <img src="<%= data[i].previewURL %>"/>
+        <div class="item">
+          <h3><%= data[i].tags %></h3>
+          <img src="<%= data[i].webformatURL %>"/>
         </div>
         <% }; %>
       </script>

@@ -8,8 +8,8 @@
   h2 {
     font-size: 23px;
     color: #333333;
-    margin-bottom: 12px;
-    margin-top: 35px;
+    margin-bottom: 7px;
+    margin-top: 0;
   }
 
   span {
@@ -22,7 +22,8 @@
 
   .search-enter-text {
     font-family: 'Roboto-Ligh';
-    width: 275px;
+    width: 86%;
+    // width: 275px;
     height: 35px;
     margin-bottom: 10px;
     border: 1px solid #bbb;
@@ -42,7 +43,8 @@
       outline: none;
       border: none;
       margin: 0 auto;
-      padding: 12px 84px;
+      padding: 4% 26%;
+      // padding: 12px 84px;
       color: $header-color;
       border-radius: 20px;
       font-size: 14px;

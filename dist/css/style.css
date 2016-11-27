@@ -218,7 +218,7 @@ The `sprites` mixin generates identical output to the CSS template
     .face .face-one-text {
       background: url("../img/hunter.png") no-repeat;
       background-position: top;
-      width: 222px;
+      width: 80%;
       margin: 0 auto;
       font-size: 15px; }
       .face .face-one-text .face-one-h4 {
@@ -230,7 +230,7 @@ The `sprites` mixin generates identical output to the CSS template
     .face .face-two-text {
       background: url("../img/marsha.png") no-repeat;
       background-position: top;
-      width: 222px;
+      width: 80%;
       margin: 0 auto;
       font-size: 15px; }
       .face .face-two-text .face-two-h4 {
@@ -243,7 +243,7 @@ The `sprites` mixin generates identical output to the CSS template
     .face .face-three-text {
       background: url("../img/walker.png") no-repeat;
       background-position: top;
-      width: 222px;
+      width: 80%;
       margin: 0 auto;
       font-size: 15px; }
       .face .face-three-text .face-three-h4 {
@@ -256,7 +256,7 @@ The `sprites` mixin generates identical output to the CSS template
     .face .face-four-text {
       background: url("../img/hunter4.png") no-repeat;
       background-position: top;
-      width: 222px;
+      width: 80%;
       margin: 0 auto;
       font-size: 15px; }
       .face .face-four-text .face-four-h4 {
@@ -273,7 +273,7 @@ The `sprites` mixin generates identical output to the CSS template
       outline: none;
       border: 2px solid #ff4e50;
       margin: 25px auto;
-      padding: 9px 70px;
+      padding: 4% 26%;
       color: #ff4e50;
       -webkit-border-radius: 20px;
               border-radius: 20px; }
@@ -281,47 +281,28 @@ The `sprites` mixin generates identical output to the CSS template
     font-family: "Montserrat-bold";
     color: #f7f7f7;
     overflow: hidden;
-    height: 1110px; }
+    height: 970px; }
     .activity h2 {
       font-size: 22px;
       color: #333333;
-      margin-top: 15px;
-      margin-top: 38px; }
-    .activity .section-activity-1 .activity-one-h3 {
-      padding: 45px 0 50px 0;
-      font-size: 22px;
-      margin-top: 10px;
-      margin-bottom: 0; }
-    .activity .section-activity-2 .activity-two-h3 {
-      padding: 48px 0 47px 0;
-      font-size: 22px;
-      margin-top: 10px;
-      margin-bottom: 0; }
-    .activity .section-activity-3 .activity-three-h3 {
-      padding: 31px 50px 38px;
-      font-size: 22px;
-      margin-top: 10px;
-      margin-bottom: 0; }
-    .activity .section-activity-4 .activity-four-h3 {
-      padding: 47px 0;
-      font-size: 22px;
-      margin-top: 10px;
-      margin-bottom: 0; }
-    .activity .section-activity-5 .activity-five-h3 {
-      padding: 47px 0;
-      font-size: 22px;
-      margin-top: 10px;
-      margin-bottom: 0; }
-    .activity .section-activity-6 .activity-six-h3 {
-      padding: 49px 0;
-      font-size: 22px;
-      margin-top: 10px;
-      margin-bottom: 0; }
-    .activity .section-activity-7 .activity-seven-h3 {
-      padding: 42px 0 50px;
-      font-size: 22px;
-      margin-top: 10px;
-      margin-bottom: 0; }
+      margin-top: 0; }
+    .activity .item {
+      float: left;
+      padding-bottom: 5px;
+      position: relative;
+      width: 100%; }
+      .activity .item h3 {
+        position: absolute;
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 0;
+        margin-top: 40px;
+        width: 300px; }
+      .activity .item img {
+        width: 100%;
+        height: 122px;
+        -webkit-border-radius: 3px;
+                border-radius: 3px; }
   .search {
     font-family: "Montserrat-bold";
     border-bottom: 4px solid #ff4e50;
@@ -330,8 +311,8 @@ The `sprites` mixin generates identical output to the CSS template
     .search h2 {
       font-size: 23px;
       color: #333333;
-      margin-bottom: 12px;
-      margin-top: 35px; }
+      margin-bottom: 7px;
+      margin-top: 0; }
     .search span {
       display: block;
       font-family: 'Roboto-Ligh';
@@ -340,7 +321,7 @@ The `sprites` mixin generates identical output to the CSS template
       margin-bottom: 16px; }
     .search .search-enter-text {
       font-family: 'Roboto-Ligh';
-      width: 275px;
+      width: 86%;
       height: 35px;
       margin-bottom: 10px;
       border: 1px solid #bbb;
@@ -351,7 +332,7 @@ The `sprites` mixin generates identical output to the CSS template
       outline: none;
       border: none;
       margin: 0 auto;
-      padding: 12px 84px;
+      padding: 4% 26%;
       color: #f7f7f7;
       -webkit-border-radius: 20px;
               border-radius: 20px;

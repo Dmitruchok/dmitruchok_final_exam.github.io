@@ -6,13 +6,16 @@
 
 @mixin section-face-img {
   background-position: top;
-  width: 222px;
+  width: 80%;
   margin: 0 auto;
   font-size: 15px;
 }
 
 @mixin mobile-activity-h3 {
+  position: absolute;
+  text-align: center;
   font-size: 22px;
-  margin-top: 10px;
   margin-bottom: 0;
+  margin-top: 40px;
+  width: 300px;
 }
