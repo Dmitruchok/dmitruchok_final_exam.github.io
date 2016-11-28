@@ -1,0 +1,37 @@
+.carusel-container {
+  display: block;
+  overflow: hidden;
+  position: relative;
+
+  .carusel-container-box {
+    float: left;
+    .carousel-arrow-left {
+      position: absolute;
+      margin-top: 60px;
+    }
+
+    .carousel-arrow-right {
+      position: absolute;
+      margin-top: 60px;
+      margin-left: 200px;
+    }
+
+    .main-block {
+      width: 240px;
+      overflow: hidden;
+
+      .container-list {
+        width: 725px;
+        float: left;
+        .carusel{
+          padding: 0;
+          .carusel-element {
+            list-style: none;
+            float: left;
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}

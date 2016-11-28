@@ -43,6 +43,31 @@ $('.search-enter-text' ).keypress(function enterText( e ) {
 
 $('#activity-pic-containar').masonry({
   itemSelector: '.item'
-})
+});
+
+var leftArrovClick = $('.carousel-arrow-left'),
+    rightArrovClick = $('.carousel-arrow-right '),
+    elementsList = $('.carusel');
+
+var pixelsOffset = 360;
+var currentLeftValue = 0;
+var elementsCount = elementsList.find('li').length;
+var minimumOffset = - ((elementsCount - 1) * pixelsOffset);
+var maximumOffset = 0;
+
+leftArrovClick.click(function () {
+  if (currentLeftValue != maximumOffset) {
+    currentLeftValue += 360;
+    elementsList.animate({ left : currentLeftValue + "px"}, 500);
+    // console.log('hi');
+  }
+});
+
+rightArrovClick.click(function () {
+  if (currentLeftValue != minimumOffset) {
+    currentLeftValue -= 360;
+    elementsList.animate({ left : currentLeftValue + "px"}, 500);
+  }
+});
 
 });

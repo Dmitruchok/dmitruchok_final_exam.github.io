@@ -182,6 +182,8 @@ The `sprites` mixin generates identical output to the CSS template
       text-align: left; }
     section .carusel-container {
       display: none; }
+  .carusel-container {
+    display: none; }
   .face {
     text-align: center;
     font-family: "Montserrat-bold";
@@ -422,6 +424,8 @@ The `sprites` mixin generates identical output to the CSS template
       text-align: left; }
     section .carusel-container {
       display: none; }
+  .carusel-container {
+    display: none; }
   .face {
     text-align: center;
     font-family: "Montserrat-bold";
@@ -649,11 +653,29 @@ The `sprites` mixin generates identical output to the CSS template
       width: 30%; }
   .carusel-container {
     display: block;
-    width: 300px;
     overflow: hidden;
-    float: left; }
-    .carusel-container .carusel-block .carusel .carusel-element {
-      list-style: none; }
+    position: relative; }
+    .carusel-container .carusel-container-box {
+      float: left; }
+      .carusel-container .carusel-container-box .carousel-arrow-left {
+        position: absolute;
+        margin-top: 60px; }
+      .carusel-container .carusel-container-box .carousel-arrow-right {
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 200px; }
+      .carusel-container .carusel-container-box .main-block {
+        width: 240px;
+        overflow: hidden; }
+        .carusel-container .carusel-container-box .main-block .container-list {
+          width: 725px;
+          float: left; }
+          .carusel-container .carusel-container-box .main-block .container-list .carusel {
+            padding: 0; }
+            .carusel-container .carusel-container-box .main-block .container-list .carusel .carusel-element {
+              list-style: none;
+              float: left;
+              padding-right: 5px; }
   .face {
     clear: both;
     text-align: center;
