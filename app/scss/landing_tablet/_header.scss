@@ -7,10 +7,9 @@ header {
   .header-log-container {
     padding-top: 48px;
     padding-bottom: 150px;
-    padding-right: 52px;
     .log-container-box {
       float: right;
-      margin-left: 340px;
+      margin-right: 52px;
     }
 
     .log-container-p {
@@ -25,6 +24,7 @@ header {
     clear: both;
     width: 70%;
     padding-bottom: 234px;
+    margin-left: 110px;
     h2 {
       font-size: 52px;
       line-height: 60px;

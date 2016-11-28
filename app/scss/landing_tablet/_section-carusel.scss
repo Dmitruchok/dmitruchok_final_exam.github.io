@@ -2,18 +2,54 @@
   display: block;
   overflow: hidden;
   position: relative;
+  margin: 0 8px;
 
   .carusel-container-box {
     float: left;
+    margin-right: 16px;
     .carousel-arrow-left {
       position: absolute;
-      margin-top: 60px;
+      margin-top: 58px;
+      margin-left: 22px;
     }
 
     .carousel-arrow-right {
       position: absolute;
-      margin-top: 60px;
-      margin-left: 200px;
+      margin-top: 57px;
+      margin-left: 187px;
+    }
+
+    .main-block {
+      width: 240px;
+      overflow: hidden;
+
+      .container-list {
+        width: 725px;
+        float: left;
+        .carusel{
+          padding: 0;
+          .carusel-element {
+            list-style: none;
+            float: left;
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  .carusel-container-box-3 {
+    float: left;
+    .carousel-arrow-left {
+      position: absolute;
+      margin-top: 58px;
+      margin-left: 22px;
+    }
+
+    .carousel-arrow-right {
+      position: absolute;
+      margin-top: 57px;
+      margin-left: 187px;
     }
 
     .main-block {

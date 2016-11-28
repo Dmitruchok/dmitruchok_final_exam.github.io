@@ -606,11 +606,10 @@ The `sprites` mixin generates identical output to the CSS template
     font-size: 14px; }
     header .header-log-container {
       padding-top: 48px;
-      padding-bottom: 150px;
-      padding-right: 52px; }
+      padding-bottom: 150px; }
       header .header-log-container .log-container-box {
         float: right;
-        margin-left: 340px; }
+        margin-right: 52px; }
       header .header-log-container .log-container-p {
         margin-top: 0;
         float: left;
@@ -619,7 +618,8 @@ The `sprites` mixin generates identical output to the CSS template
     header .header-text-container {
       clear: both;
       width: 70%;
-      padding-bottom: 234px; }
+      padding-bottom: 234px;
+      margin-left: 110px; }
       header .header-text-container h2 {
         font-size: 52px;
         line-height: 60px;
@@ -637,7 +637,7 @@ The `sprites` mixin generates identical output to the CSS template
     section h2 {
       font-size: 23px;
       color: #333333;
-      margin-bottom: 28px; }
+      margin: 95px 10px 16px 42px; }
     section .section-step-one {
       display: none;
       padding: 95px 0 10px 20px;
@@ -654,16 +654,19 @@ The `sprites` mixin generates identical output to the CSS template
   .carusel-container {
     display: block;
     overflow: hidden;
-    position: relative; }
+    position: relative;
+    margin: 0 8px; }
     .carusel-container .carusel-container-box {
-      float: left; }
+      float: left;
+      margin-right: 16px; }
       .carusel-container .carusel-container-box .carousel-arrow-left {
         position: absolute;
-        margin-top: 60px; }
+        margin-top: 58px;
+        margin-left: 22px; }
       .carusel-container .carusel-container-box .carousel-arrow-right {
         position: absolute;
-        margin-top: 60px;
-        margin-left: 200px; }
+        margin-top: 57px;
+        margin-left: 187px; }
       .carusel-container .carusel-container-box .main-block {
         width: 240px;
         overflow: hidden; }
@@ -676,8 +679,64 @@ The `sprites` mixin generates identical output to the CSS template
               list-style: none;
               float: left;
               padding-right: 5px; }
+    .carusel-container .carusel-container-box-3 {
+      float: left; }
+      .carusel-container .carusel-container-box-3 .carousel-arrow-left {
+        position: absolute;
+        margin-top: 58px;
+        margin-left: 22px; }
+      .carusel-container .carusel-container-box-3 .carousel-arrow-right {
+        position: absolute;
+        margin-top: 57px;
+        margin-left: 187px; }
+      .carusel-container .carusel-container-box-3 .main-block {
+        width: 240px;
+        overflow: hidden; }
+        .carusel-container .carusel-container-box-3 .main-block .container-list {
+          width: 725px;
+          float: left; }
+          .carusel-container .carusel-container-box-3 .main-block .container-list .carusel {
+            padding: 0; }
+            .carusel-container .carusel-container-box-3 .main-block .container-list .carusel .carusel-element {
+              list-style: none;
+              float: left;
+              padding-right: 5px; }
   .face {
     clear: both;
     text-align: center;
     font-family: "Montserrat-bold";
-    margin: 25px; } }
+    margin: 25px; }
+    .face h2 {
+      margin-top: 95px;
+      margin-right: 49px;
+      margin-bottom: 6px; }
+    .face .left-section {
+      display: inline-block;
+      width: 35%; }
+      .face .left-section .section-face-one {
+        width: 100%; }
+        .face .left-section .section-face-one .face-one-text h4 {
+          padding-top: 139px; }
+        .face .left-section .section-face-one .face-one-text p {
+          margin-top: 12px; }
+      .face .left-section .section-face-two {
+        width: 100%; }
+        .face .left-section .section-face-two .face-one-text h4 {
+          margin-top: 189px; }
+        .face .left-section .section-face-two .face-one-text p {
+          margin-top: 12px; }
+    .face .right-section {
+      display: inline-block;
+      width: 35%; }
+      .face .right-section .section-face-three {
+        width: 100%; }
+        .face .right-section .section-face-three .face-three-text {
+          height: 236px; }
+          .face .right-section .section-face-three .face-three-text h4 {
+            padding-top: 138px; }
+          .face .right-section .section-face-three .face-three-text p {
+            margin-top: 12px; }
+      .face .right-section .section-face-four {
+        width: 100%; }
+    .face .section-face-input {
+      padding: 10px 30px; } }

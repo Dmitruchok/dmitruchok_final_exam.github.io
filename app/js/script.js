@@ -49,7 +49,7 @@ var leftArrovClick = $('.carousel-arrow-left'),
     rightArrovClick = $('.carousel-arrow-right '),
     elementsList = $('.carusel');
 
-var pixelsOffset = 360;
+var pixelsOffset = 300;
 var currentLeftValue = 0;
 var elementsCount = elementsList.find('li').length;
 var minimumOffset = - ((elementsCount - 1) * pixelsOffset);
@@ -57,7 +57,7 @@ var maximumOffset = 0;
 
 leftArrovClick.click(function () {
   if (currentLeftValue != maximumOffset) {
-    currentLeftValue += 360;
+    currentLeftValue += 300;
     elementsList.animate({ left : currentLeftValue + "px"}, 500);
     // console.log('hi');
   }
@@ -65,7 +65,7 @@ leftArrovClick.click(function () {
 
 rightArrovClick.click(function () {
   if (currentLeftValue != minimumOffset) {
-    currentLeftValue -= 360;
+    currentLeftValue -= 300;
     elementsList.animate({ left : currentLeftValue + "px"}, 500);
   }
 });
