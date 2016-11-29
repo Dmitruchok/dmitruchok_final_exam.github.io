@@ -713,30 +713,22 @@ The `sprites` mixin generates identical output to the CSS template
     .face .left-section {
       display: inline-block;
       width: 35%; }
-      .face .left-section .section-face-one {
-        width: 100%; }
-        .face .left-section .section-face-one .face-one-text h4 {
-          padding-top: 139px; }
-        .face .left-section .section-face-one .face-one-text p {
-          margin-top: 12px; }
-      .face .left-section .section-face-two {
-        width: 100%; }
-        .face .left-section .section-face-two .face-one-text h4 {
-          margin-top: 189px; }
-        .face .left-section .section-face-two .face-one-text p {
-          margin-top: 12px; }
+      .face .left-section .section-face-one .face-one-text h4 {
+        padding-top: 139px; }
+      .face .left-section .section-face-one .face-one-text p {
+        margin-top: 12px; }
+      .face .left-section .section-face-two .face-one-text h4 {
+        margin-top: 189px; }
+      .face .left-section .section-face-two .face-one-text p {
+        margin-top: 12px; }
     .face .right-section {
       display: inline-block;
       width: 35%; }
-      .face .right-section .section-face-three {
-        width: 100%; }
-        .face .right-section .section-face-three .face-three-text {
-          height: 236px; }
-          .face .right-section .section-face-three .face-three-text h4 {
-            padding-top: 138px; }
-          .face .right-section .section-face-three .face-three-text p {
-            margin-top: 12px; }
-      .face .right-section .section-face-four {
-        width: 100%; }
+      .face .right-section .section-face-three .face-three-text {
+        height: 236px; }
+        .face .right-section .section-face-three .face-three-text h4 {
+          padding-top: 138px; }
+        .face .right-section .section-face-three .face-three-text p {
+          margin-top: 12px; }
     .face .section-face-input {
       padding: 10px 30px; } }
