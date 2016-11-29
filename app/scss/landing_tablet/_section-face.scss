@@ -13,7 +13,8 @@
   }
 
   .left-section {
-    display: inline-block;
+    //display: inline-block;
+    float: left;
     width: 35%;
     .section-face-one {
       .face-one-text {
@@ -43,7 +44,8 @@
   }
 
   .right-section {
-    display: inline-block;
+    float: right;
+    //display: inline-block;
     width: 35%;
     .section-face-three {
       .face-three-text {

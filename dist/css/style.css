@@ -711,7 +711,7 @@ The `sprites` mixin generates identical output to the CSS template
       margin-right: 49px;
       margin-bottom: 6px; }
     .face .left-section {
-      display: inline-block;
+      float: left;
       width: 35%; }
       .face .left-section .section-face-one .face-one-text h4 {
         padding-top: 139px; }
@@ -722,7 +722,7 @@ The `sprites` mixin generates identical output to the CSS template
       .face .left-section .section-face-two .face-one-text p {
         margin-top: 12px; }
     .face .right-section {
-      display: inline-block;
+      float: right;
       width: 35%; }
       .face .right-section .section-face-three .face-three-text {
         height: 236px; }
