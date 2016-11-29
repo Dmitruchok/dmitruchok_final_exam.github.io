@@ -11,7 +11,8 @@
     margin-top: 0;
   }
 
-    .item {
+  .result {
+    div {
       float: left;
       padding-bottom: 8px;
       position: relative;
@@ -27,4 +28,6 @@
         border-radius: 3px;
       }
     }
+  }
+
 }

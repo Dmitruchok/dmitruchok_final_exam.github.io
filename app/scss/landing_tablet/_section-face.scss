@@ -49,10 +49,11 @@
     width: 35%;
     .section-face-three {
       .face-three-text {
-        height: 236px;
+        // height: 236px;
 
         h4 {
           padding-top: 138px;
+          margin-top: 0;
         }
 
         p {
@@ -66,6 +67,7 @@
   }
 
   .section-face-input {
+    clear: both;
     padding: 10px 30px;
   }
 
