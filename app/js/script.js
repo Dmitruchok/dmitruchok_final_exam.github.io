@@ -56,16 +56,16 @@ var minimumOffset = - ((elementsCount - 1) * pixelsOffset);
 var maximumOffset = 0;
 
 leftArrovClick.click(function () {
-  if (currentLeftValue != maximumOffset) {
-    currentLeftValue += 300;
-    elementsList.animate({ left : currentLeftValue + "px"}, 500);
-    // console.log('hi');
-  }
+  // console.log('hi');
+  // if (currentLeftValue != maximumOffset) {
+  //   currentLeftValue += 300;
+  //   elementsList.animate({ top : currentLeftValue + "px"}, 500);
+  // }
 });
 
 rightArrovClick.click(function () {
   if (currentLeftValue != minimumOffset) {
-    currentLeftValue -= 300;
+    currentLeftValue += 300;
     elementsList.animate({ left : currentLeftValue + "px"}, 500);
   }
 });

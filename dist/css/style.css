@@ -654,7 +654,6 @@ The `sprites` mixin generates identical output to the CSS template
   .carusel-container {
     display: block;
     overflow: hidden;
-    position: relative;
     margin: 0 8px; }
     .carusel-container .carusel-container-box {
       float: left;
@@ -674,6 +673,7 @@ The `sprites` mixin generates identical output to the CSS template
           width: 725px;
           float: left; }
           .carusel-container .carusel-container-box .main-block .container-list .carusel {
+            width: 9999px;
             padding: 0; }
             .carusel-container .carusel-container-box .main-block .container-list .carusel .carusel-element {
               list-style: none;
@@ -696,6 +696,7 @@ The `sprites` mixin generates identical output to the CSS template
           width: 725px;
           float: left; }
           .carusel-container .carusel-container-box-3 .main-block .container-list .carusel {
+            width: 9999px;
             padding: 0; }
             .carusel-container .carusel-container-box-3 .main-block .container-list .carusel .carusel-element {
               list-style: none;
@@ -772,23 +773,4 @@ The `sprites` mixin generates identical output to the CSS template
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
-    footer .foot-box-one .foot-nav-company li {
-      display: block; }
-    footer .foot-box-two {
-      font-size: 13px; }
-      footer .foot-box-two span {
-        color: #333333; }
-      footer .foot-box-two .foot-nav-partners {
-        padding: 0; }
-        footer .foot-box-two .foot-nav-partners li {
-          list-style: none;
-          font-size: 16px; }
-          footer .foot-box-two .foot-nav-partners li a {
-            display: block;
-            font-size: 12px;
-            color: #b8b8b8;
-            text-decoration: none;
-            margin-bottom: 10px; }
-        footer .foot-box-two .foot-nav-partners::after {
-          content: url("../img/fot-logo.png"); } }
+            justify-content: space-between; } }

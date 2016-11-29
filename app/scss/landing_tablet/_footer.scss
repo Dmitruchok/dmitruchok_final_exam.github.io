@@ -3,43 +3,4 @@
 footer {
   display: flex;
   justify-content: space-between;
-  h4 {
-
-  }
-
-  .foot-box-one {
-
-    .foot-nav-company {
-
-      li {
-        display: block;
-      }
-    }
-
-  }
-
-  .foot-box-two {
-    font-size: 13px;
-    span {
-      color: #333333;
-    }
-    .foot-nav-partners {
-      padding: 0;
-      li {
-        list-style: none;
-        font-size: 16px;
-
-        a {
-          display: block;
-          font-size: 12px;
-          color: #b8b8b8;
-          text-decoration: none;
-          margin-bottom: 10px;
-        }
-      }
-      &::after {
-        content: url('../img/fot-logo.png');
-      }
-    }
-  }
 }

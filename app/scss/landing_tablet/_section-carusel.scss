@@ -1,7 +1,7 @@
 .carusel-container {
   display: block;
   overflow: hidden;
-  position: relative;
+  //position: relative;
   margin: 0 8px;
 
   .carusel-container-box {
@@ -27,6 +27,7 @@
         width: 725px;
         float: left;
         .carusel{
+          width: 9999px;
           padding: 0;
           .carusel-element {
             list-style: none;
@@ -60,6 +61,7 @@
         width: 725px;
         float: left;
         .carusel{
+          width: 9999px;
           padding: 0;
           .carusel-element {
             list-style: none;
