@@ -22,6 +22,7 @@
     .main-block {
       width: 240px;
       overflow: hidden;
+      float: left;
 
       .container-list {
         width: 725px;
@@ -29,7 +30,9 @@
         .carusel{
           width: 9999px;
           padding: 0;
+          // position: relative;
           .carusel-element {
+            //display: inline-block;
             list-style: none;
             float: left;
             padding-right: 5px;

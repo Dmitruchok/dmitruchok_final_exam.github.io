@@ -172,8 +172,7 @@ The `sprites` mixin generates identical output to the CSS template
     section h2 {
       font-size: 23px;
       color: #333333;
-      margin-bottom: 14px;
-      margin: 95px 10px 16px 21px; }
+      margin-bottom: 14px; }
     section .section-step-one {
       text-align: left; }
     section .section-step-two {
@@ -422,8 +421,7 @@ The `sprites` mixin generates identical output to the CSS template
     section h2 {
       font-size: 23px;
       color: #333333;
-      margin-bottom: 14px;
-      margin: 95px 10px 16px 21px; }
+      margin-bottom: 14px; }
     section .section-step-one {
       text-align: left; }
     section .section-step-two {
@@ -684,7 +682,8 @@ The `sprites` mixin generates identical output to the CSS template
         margin-left: 187px; }
       .carusel-container .carusel-container-box .main-block {
         width: 240px;
-        overflow: hidden; }
+        overflow: hidden;
+        float: left; }
         .carusel-container .carusel-container-box .main-block .container-list {
           width: 725px;
           float: left; }
