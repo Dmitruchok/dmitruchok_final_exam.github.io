@@ -4,7 +4,7 @@
   font-family: $header-font;
   border-bottom: 4px solid #ff4e50;
   padding-bottom: 41px;
-  margin: 32px 0 15px;
+  margin: 27px 0 15px;
   h2 {
     font-size: 23px;
     color: #333333;
@@ -18,12 +18,12 @@
     color: #696969;
     font-size: 19px;
     margin-bottom: 16px;
+    margin-top: 11px;
   }
 
   .search-enter-text {
     font-family: 'Roboto-Ligh';
-    width: 86%;
-    // width: 275px;
+    width: 275px;
     height: 35px;
     margin-bottom: 10px;
     border: 1px solid #bbb;
@@ -31,20 +31,13 @@
 
   }
 
-  // input::-moz-placeholder {
-  //   display:block;
-  //   padding-left: 20px;
-  //   color: green;
-  // }
-
   .search-button {
       display: block;
       background-color: #ff4e50;
       outline: none;
       border: none;
       margin: 0 auto;
-      padding: 4% 26%;
-      // padding: 12px 84px;
+      padding: 12px 84px;
       color: $header-color;
       border-radius: 20px;
       font-size: 14px;

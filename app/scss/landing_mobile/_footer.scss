@@ -33,15 +33,11 @@ footer {
           }
         }
     }
-
   }
-
 
   .foot-box-two {
     font-size: 13px;
-    span {
-      color: #333333;
-    }
+
     .foot-nav-partners {
       padding: 0;
       li {
@@ -50,14 +46,25 @@ footer {
 
         a {
           display: block;
-          font-size: 12px;
-          color: #b8b8b8;
+          font-size: 14px;
+          color: #333333;
           text-decoration: none;
           margin-bottom: 10px;
         }
       }
+
+    }
+
+    span {
+      color: #b8b8b8;
+      font-size: 11px;
+      width: 120px;
+      display: block;
+      margin: 0 auto;
       &::after {
         content: url('../img/fot-logo.png');
+        display: block;
+        margin-top: 5px;
       }
     }
   }

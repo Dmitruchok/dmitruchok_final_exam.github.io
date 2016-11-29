@@ -172,7 +172,8 @@ The `sprites` mixin generates identical output to the CSS template
     section h2 {
       font-size: 23px;
       color: #333333;
-      margin-bottom: 14px; }
+      margin-bottom: 14px;
+      margin: 95px 10px 16px 21px; }
     section .section-step-one {
       text-align: left; }
     section .section-step-two {
@@ -285,7 +286,7 @@ The `sprites` mixin generates identical output to the CSS template
     font-family: "Montserrat-bold";
     border-bottom: 4px solid #ff4e50;
     padding-bottom: 41px;
-    margin: 32px 0 15px; }
+    margin: 27px 0 15px; }
     .search h2 {
       font-size: 23px;
       color: #333333;
@@ -296,10 +297,11 @@ The `sprites` mixin generates identical output to the CSS template
       font-family: 'Roboto-Ligh';
       color: #696969;
       font-size: 19px;
-      margin-bottom: 16px; }
+      margin-bottom: 16px;
+      margin-top: 11px; }
     .search .search-enter-text {
       font-family: 'Roboto-Ligh';
-      width: 86%;
+      width: 275px;
       height: 35px;
       margin-bottom: 10px;
       border: 1px solid #bbb;
@@ -310,7 +312,7 @@ The `sprites` mixin generates identical output to the CSS template
       outline: none;
       border: none;
       margin: 0 auto;
-      padding: 4% 26%;
+      padding: 12px 84px;
       color: #f7f7f7;
       -webkit-border-radius: 20px;
               border-radius: 20px;
@@ -341,8 +343,6 @@ The `sprites` mixin generates identical output to the CSS template
             text-decoration: none; }
     footer .foot-box-two {
       font-size: 13px; }
-      footer .foot-box-two span {
-        color: #333333; }
       footer .foot-box-two .foot-nav-partners {
         padding: 0; }
         footer .foot-box-two .foot-nav-partners li {
@@ -350,12 +350,20 @@ The `sprites` mixin generates identical output to the CSS template
           font-size: 16px; }
           footer .foot-box-two .foot-nav-partners li a {
             display: block;
-            font-size: 12px;
-            color: #b8b8b8;
+            font-size: 14px;
+            color: #333333;
             text-decoration: none;
             margin-bottom: 10px; }
-        footer .foot-box-two .foot-nav-partners::after {
-          content: url("../img/fot-logo.png"); } }
+      footer .foot-box-two span {
+        color: #b8b8b8;
+        font-size: 11px;
+        width: 120px;
+        display: block;
+        margin: 0 auto; }
+        footer .foot-box-two span::after {
+          content: url("../img/fot-logo.png");
+          display: block;
+          margin-top: 5px; } }
 
 @media (min-width: 668px) and (max-width: 768px) {
   header {
@@ -414,7 +422,8 @@ The `sprites` mixin generates identical output to the CSS template
     section h2 {
       font-size: 23px;
       color: #333333;
-      margin-bottom: 14px; }
+      margin-bottom: 14px;
+      margin: 95px 10px 16px 21px; }
     section .section-step-one {
       text-align: left; }
     section .section-step-two {
@@ -527,7 +536,7 @@ The `sprites` mixin generates identical output to the CSS template
     font-family: "Montserrat-bold";
     border-bottom: 4px solid #ff4e50;
     padding-bottom: 41px;
-    margin: 32px 0 15px; }
+    margin: 27px 0 15px; }
     .search h2 {
       font-size: 23px;
       color: #333333;
@@ -538,10 +547,11 @@ The `sprites` mixin generates identical output to the CSS template
       font-family: 'Roboto-Ligh';
       color: #696969;
       font-size: 19px;
-      margin-bottom: 16px; }
+      margin-bottom: 16px;
+      margin-top: 11px; }
     .search .search-enter-text {
       font-family: 'Roboto-Ligh';
-      width: 86%;
+      width: 275px;
       height: 35px;
       margin-bottom: 10px;
       border: 1px solid #bbb;
@@ -552,7 +562,7 @@ The `sprites` mixin generates identical output to the CSS template
       outline: none;
       border: none;
       margin: 0 auto;
-      padding: 4% 26%;
+      padding: 12px 84px;
       color: #f7f7f7;
       -webkit-border-radius: 20px;
               border-radius: 20px;
@@ -583,8 +593,6 @@ The `sprites` mixin generates identical output to the CSS template
             text-decoration: none; }
     footer .foot-box-two {
       font-size: 13px; }
-      footer .foot-box-two span {
-        color: #333333; }
       footer .foot-box-two .foot-nav-partners {
         padding: 0; }
         footer .foot-box-two .foot-nav-partners li {
@@ -592,12 +600,20 @@ The `sprites` mixin generates identical output to the CSS template
           font-size: 16px; }
           footer .foot-box-two .foot-nav-partners li a {
             display: block;
-            font-size: 12px;
-            color: #b8b8b8;
+            font-size: 14px;
+            color: #333333;
             text-decoration: none;
             margin-bottom: 10px; }
-        footer .foot-box-two .foot-nav-partners::after {
-          content: url("../img/fot-logo.png"); }
+      footer .foot-box-two span {
+        color: #b8b8b8;
+        font-size: 11px;
+        width: 120px;
+        display: block;
+        margin: 0 auto; }
+        footer .foot-box-two span::after {
+          content: url("../img/fot-logo.png");
+          display: block;
+          margin-top: 5px; }
   header {
     background: url("../img/tabletbg.png") no-repeat;
     background-size: cover;
@@ -634,10 +650,10 @@ The `sprites` mixin generates identical output to the CSS template
   section {
     text-align: center;
     margin: 95px 10px 0; }
-    section h2 {
+    section .step {
       font-size: 23px;
       color: #333333;
-      margin: 95px 10px 16px 42px; }
+      margin: 95px 10px 16px 21px; }
     section .section-step-one {
       display: none;
       padding: 95px 0 10px 20px;
@@ -704,73 +720,114 @@ The `sprites` mixin generates identical output to the CSS template
               padding-right: 5px; }
   .face {
     clear: both;
-    text-align: center;
-    font-family: "Montserrat-bold";
     margin: 25px; }
     .face h2 {
       margin-top: 95px;
       margin-right: 49px;
-      margin-bottom: 6px; }
+      margin-bottom: 32px; }
     .face .left-section {
-      float: left;
-      width: 35%; }
+      display: inline-block;
+      width: 35%;
+      margin-left: 108px; }
       .face .left-section .section-face-one .face-one-text h4 {
         padding-top: 139px; }
       .face .left-section .section-face-one .face-one-text p {
         margin-top: 12px; }
-      .face .left-section .section-face-two .face-one-text h4 {
-        margin-top: 189px; }
-      .face .left-section .section-face-two .face-one-text p {
-        margin-top: 12px; }
+      .face .left-section .section-face-two {
+        padding-top: 13px; }
+        .face .left-section .section-face-two .face-two-text {
+          width: 90%;
+          font-size: 16px; }
+          .face .left-section .section-face-two .face-two-text p {
+            margin-top: 12px; }
     .face .right-section {
       float: right;
+      margin-right: 103px;
       width: 35%; }
-      .face .right-section .section-face-three .face-three-text h4 {
-        padding-top: 138px;
-        margin-top: 0; }
-      .face .right-section .section-face-three .face-three-text p {
-        margin-top: 12px; }
+      .face .right-section .section-face-three .face-three-text {
+        width: 90%; }
+        .face .right-section .section-face-three .face-three-text h4 {
+          padding-top: 138px;
+          margin-top: 0; }
+        .face .right-section .section-face-three .face-three-text p {
+          margin-top: 12px; }
+      .face .right-section .section-face-four {
+        padding-top: 14px; }
     .face .section-face-input {
       clear: both;
-      padding: 10px 30px; }
-  .activity h2 {
-    font-size: 22px;
-    color: #333333;
-    margin-top: 0; }
-  .activity .result div {
-    float: left;
-    padding-bottom: 8px;
-    position: relative;
-    width: 200px;
-    height: 300px; }
-    .activity .result div img {
-      height: 100%; }
-    .activity .result div h3 {
-      position: absolute;
-      text-align: center;
+      padding: 10px 28px;
+      margin-top: 18px; }
+  .activity {
+    height: 1050px; }
+    .activity h2 {
+      margin-left: 10px;
+      margin-bottom: 37px; }
+    .activity .result div {
+      padding-bottom: 8px;
+      width: 235px;
+      height: 310px;
+      padding-right: 21px;
+      padding-bottom: 20px; }
+      .activity .result div img {
+        height: 100%; }
+      .activity .result div h3 {
+        width: 235px;
+        margin: 50% auto; }
+    .activity .result .item-3 {
+      padding: 0; }
+    .activity .result .item-5 {
+      width: 492px;
+      padding: 0 0 20px; }
+      .activity .result .item-5 h3 {
+        width: 492px;
+        margin: 25% auto; }
+    .activity .result .item-6 {
+      width: 492px;
+      padding: 0 20px 20px 0; }
+      .activity .result .item-6 h3 {
+        width: 492px;
+        margin: 25% auto; }
+    .activity .result .item-7 {
+      padding: 0; }
+  .search {
+    margin: 75px 0 40px;
+    padding-bottom: 89px; }
+    .search h2 {
       font-size: 22px;
-      margin-bottom: 0;
-      margin-top: 40px;
-      width: 300px; }
-    .activity .result div img {
-      width: 100%;
-      -webkit-border-radius: 3px;
-              border-radius: 3px; }
-  .activity .result .item-5 {
-    width: 400px; }
-  .activity .result .item-6 {
-    width: 400px; }
-  .search .search-enter-text {
-    width: 275px; }
-  .search .search-button {
-    display: inline-block;
-    padding: 12px 84px; }
-  footer {
+      margin: 0 10px 33px 6px; }
+    .search span {
+      margin-bottom: 38px; }
+    .search .search-enter-text {
+      width: 235px;
+      margin-left: 114px; }
+    .search .search-button {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 0 113px 0 5px; }
+  .foot {
+    font-family: "Montserrat-bold";
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between; } }
+    margin: 0 35px; }
+    .foot h4 {
+      margin: 0 0 0 4px; }
+    .foot .foot-box-one {
+      margin-left: 84px; }
+      .foot .foot-box-one ul {
+        text-align: left; }
+        .foot .foot-box-one ul li {
+          display: block;
+          padding: 6px 0 0 0; }
+    .foot .foot-box-two {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      margin-left: 103px; }
+      .foot .foot-box-two .foot-nav-partners {
+        margin: 0; }
+      .foot .foot-box-two span {
+        font-size: 10px;
+        margin-left: 117px; } }

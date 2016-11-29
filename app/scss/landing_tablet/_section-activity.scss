@@ -1,38 +1,53 @@
   @import "../scss/_mixins";
 
 .activity {
+  height: 1050px;
   h2 {
-    font-size: 22px;
-    color: #333333;
-    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 37px;
   }
   .result {
     div {
-      float: left;
       padding-bottom: 8px;
-      position: relative;
-      width: 200px;
-      height: 300px;
+      width: 235px;
+      height: 310px;
+      padding-right: 21px;
+      padding-bottom: 20px;
       img {
         height: 100%;
       }
 
       h3 {
-        @include mobile-activity-h3;
+        width: 235px;
+        margin: 50% auto;
       }
 
-      img {
-        width: 100%;
-        border-radius: 3px;
-      }
+    }
+
+    .item-3 {
+      padding: 0;
     }
 
     .item-5 {
-      width: 400px;
+      width: 492px;
+      padding: 0 0 20px;
+      h3 {
+        width: 492px;
+        margin: 25% auto;
+      }
     }
 
     .item-6 {
-      width: 400px;
+      width: 492px;
+      padding: 0 20px 20px 0;
+      h3 {
+        width: 492px;
+        margin: 25% auto;
+      }
+    }
+
+    .item-7 {
+      padding: 0;
     }
   }
 

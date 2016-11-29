@@ -34,7 +34,7 @@
     </header>
 
     <section>
-      <h2>How Urlaubsglück works?</h2>
+      <h2 class="step">How Urlaubsglück works?</h2>
 
       <div class="section-step-one">
         <img src="img/mobile/step1.png"/>
@@ -179,7 +179,7 @@
       <script type="text/tmpl" id="activity-pic-containar">
       <% for( var i=0; i < data.length; i++ ) {%>
         <div class="item-<%= 1+i %>">
-          <h3><%= data[i].tags %></h3>
+          <h3><%= data[i].user %></h3>
           <img src="<%= data[i].webformatURL %>"/>
         </div>
         <% }; %>
@@ -196,7 +196,7 @@
 
     </section>
 
-    <footer>
+    <footer class="foot">
 
       <h4>URLAUBSGLÜCK</h4>
 
@@ -214,10 +214,12 @@
 
       <div class="foot-box-two">
 
-        <span>Partners</span>
         <ul class="foot-nav-partners">
-          <li><a href="#">Designed by</a></li>
+          <li><a href="#">Partners</a></li>
         </ul>
+
+        <span>DESIGNED BY</span>
+
       </div>
 
     </footer>
