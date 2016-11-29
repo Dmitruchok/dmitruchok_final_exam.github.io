@@ -1,0 +1,39 @@
+  @import "../scss/_mixins";
+
+.activity {
+  h2 {
+    font-size: 22px;
+    color: #333333;
+    margin-top: 0;
+  }
+  .result {
+    div {
+      float: left;
+      padding-bottom: 8px;
+      position: relative;
+      width: 200px;
+      height: 300px;
+      img {
+        height: 100%;
+      }
+
+      h3 {
+        @include mobile-activity-h3;
+      }
+
+      img {
+        width: 100%;
+        border-radius: 3px;
+      }
+    }
+
+    .item-5 {
+      width: 400px;
+    }
+
+    .item-6 {
+      width: 400px;
+    }
+  }
+
+}
