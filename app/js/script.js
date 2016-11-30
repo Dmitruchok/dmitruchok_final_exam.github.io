@@ -70,7 +70,6 @@ var maximumOffset = 0;
 // };
 
   leftArrovClick.click(function () {
-    t();
     if (currentLeftValue != maximumOffset) {
       currentLeftValue += 240;
       elementsList.animate({ left : currentLeftValue + "px"}, 200);
