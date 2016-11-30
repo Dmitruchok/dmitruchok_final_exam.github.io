@@ -19,3 +19,41 @@
   margin-top: 40px;
   width: 300px;
 }
+
+
+@mixin carusel {
+    .carousel-arrow-left {
+      position: absolute;
+      margin-top: 58px;
+      margin-left: 22px;
+      z-index: 5;
+    }
+
+    .carousel-arrow-right {
+      position: absolute;
+      margin-top: 57px;
+      margin-left: 187px;
+      z-index: 5;
+    }
+
+    .main-block {
+      width: 240px;
+      overflow: hidden;
+
+      .container-list {
+        float: left;
+        position: relative;
+        // left: -240px;
+
+        .carusel{
+          width: 9999px;
+          padding: 0;
+          li {
+            width: 240px;
+            list-style: none;
+            float: left;
+          }
+        }
+      }
+    }
+}

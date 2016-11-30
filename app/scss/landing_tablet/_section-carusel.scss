@@ -1,78 +1,22 @@
 .carusel-container {
   display: block;
   overflow: hidden;
-  //position: relative;
   margin: 0 8px;
+
 
   .carusel-container-box {
     float: left;
-    margin-right: 16px;
-    .carousel-arrow-left {
-      position: absolute;
-      margin-top: 58px;
-      margin-left: 22px;
-    }
+    // margin-right: 16px;
+    @include carusel;
+  }
 
-    .carousel-arrow-right {
-      position: absolute;
-      margin-top: 57px;
-      margin-left: 187px;
-    }
-
-    .main-block {
-      width: 240px;
-      overflow: hidden;
-      float: left;
-
-      .container-list {
-        width: 725px;
-        float: left;
-        .carusel{
-          width: 9999px;
-          padding: 0;
-          // position: relative;
-          .carusel-element {
-            //display: inline-block;
-            list-style: none;
-            float: left;
-            padding-right: 5px;
-          }
-        }
-      }
-    }
+  .carusel-container-box-2 {
+    float: left;
+    @include carusel;
   }
 
   .carusel-container-box-3 {
     float: left;
-    .carousel-arrow-left {
-      position: absolute;
-      margin-top: 58px;
-      margin-left: 22px;
-    }
-
-    .carousel-arrow-right {
-      position: absolute;
-      margin-top: 57px;
-      margin-left: 187px;
-    }
-
-    .main-block {
-      width: 240px;
-      overflow: hidden;
-
-      .container-list {
-        width: 725px;
-        float: left;
-        .carusel{
-          width: 9999px;
-          padding: 0;
-          .carusel-element {
-            list-style: none;
-            float: left;
-            padding-right: 5px;
-          }
-        }
-      }
-    }
+    @include carusel;
   }
 }

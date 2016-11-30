@@ -670,53 +670,80 @@ The `sprites` mixin generates identical output to the CSS template
     overflow: hidden;
     margin: 0 8px; }
     .carusel-container .carusel-container-box {
-      float: left;
-      margin-right: 16px; }
+      float: left; }
       .carusel-container .carusel-container-box .carousel-arrow-left {
         position: absolute;
         margin-top: 58px;
-        margin-left: 22px; }
+        margin-left: 22px;
+        z-index: 5; }
       .carusel-container .carusel-container-box .carousel-arrow-right {
         position: absolute;
         margin-top: 57px;
-        margin-left: 187px; }
+        margin-left: 187px;
+        z-index: 5; }
       .carusel-container .carusel-container-box .main-block {
         width: 240px;
-        overflow: hidden;
-        float: left; }
+        overflow: hidden; }
         .carusel-container .carusel-container-box .main-block .container-list {
-          width: 725px;
-          float: left; }
+          float: left;
+          position: relative; }
           .carusel-container .carusel-container-box .main-block .container-list .carusel {
             width: 9999px;
             padding: 0; }
-            .carusel-container .carusel-container-box .main-block .container-list .carusel .carusel-element {
+            .carusel-container .carusel-container-box .main-block .container-list .carusel li {
+              width: 240px;
               list-style: none;
-              float: left;
-              padding-right: 5px; }
+              float: left; }
+    .carusel-container .carusel-container-box-2 {
+      float: left; }
+      .carusel-container .carusel-container-box-2 .carousel-arrow-left {
+        position: absolute;
+        margin-top: 58px;
+        margin-left: 22px;
+        z-index: 5; }
+      .carusel-container .carusel-container-box-2 .carousel-arrow-right {
+        position: absolute;
+        margin-top: 57px;
+        margin-left: 187px;
+        z-index: 5; }
+      .carusel-container .carusel-container-box-2 .main-block {
+        width: 240px;
+        overflow: hidden; }
+        .carusel-container .carusel-container-box-2 .main-block .container-list {
+          float: left;
+          position: relative; }
+          .carusel-container .carusel-container-box-2 .main-block .container-list .carusel {
+            width: 9999px;
+            padding: 0; }
+            .carusel-container .carusel-container-box-2 .main-block .container-list .carusel li {
+              width: 240px;
+              list-style: none;
+              float: left; }
     .carusel-container .carusel-container-box-3 {
       float: left; }
       .carusel-container .carusel-container-box-3 .carousel-arrow-left {
         position: absolute;
         margin-top: 58px;
-        margin-left: 22px; }
+        margin-left: 22px;
+        z-index: 5; }
       .carusel-container .carusel-container-box-3 .carousel-arrow-right {
         position: absolute;
         margin-top: 57px;
-        margin-left: 187px; }
+        margin-left: 187px;
+        z-index: 5; }
       .carusel-container .carusel-container-box-3 .main-block {
         width: 240px;
         overflow: hidden; }
         .carusel-container .carusel-container-box-3 .main-block .container-list {
-          width: 725px;
-          float: left; }
+          float: left;
+          position: relative; }
           .carusel-container .carusel-container-box-3 .main-block .container-list .carusel {
             width: 9999px;
             padding: 0; }
-            .carusel-container .carusel-container-box-3 .main-block .container-list .carusel .carusel-element {
+            .carusel-container .carusel-container-box-3 .main-block .container-list .carusel li {
+              width: 240px;
               list-style: none;
-              float: left;
-              padding-right: 5px; }
+              float: left; }
   .face {
     clear: both;
     margin: 25px; }
@@ -726,8 +753,7 @@ The `sprites` mixin generates identical output to the CSS template
       margin-bottom: 32px; }
     .face .left-section {
       display: inline-block;
-      width: 35%;
-      margin-left: 108px; }
+      width: 35%; }
       .face .left-section .section-face-one .face-one-text h4 {
         padding-top: 139px; }
       .face .left-section .section-face-one .face-one-text p {

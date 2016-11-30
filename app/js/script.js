@@ -47,27 +47,29 @@ $('#activity-pic-containar').masonry({
 
 var leftArrovClick = $('.carousel-arrow-left'),
     rightArrovClick = $('.carousel-arrow-right '),
-    elementsList = $('.carusel');
+    elementsList = $('.container-list');
 
-var pixelsOffset = 300;
+var pixelsOffset = 240;
 var currentLeftValue = 0;
 var elementsCount = elementsList.find('li').length;
 var minimumOffset = - ((elementsCount - 1) * pixelsOffset);
 var maximumOffset = 0;
 
-leftArrovClick.click(function () {
-  // console.log('hi');
-  // if (currentLeftValue != maximumOffset) {
-  //   currentLeftValue += 300;
-  //   elementsList.animate({ top : currentLeftValue + "px"}, 500);
-  // }
-});
 
-rightArrovClick.click(function () {
-  if (currentLeftValue != minimumOffset) {
-    currentLeftValue += 300;
-    elementsList.animate({ left : currentLeftValue + "px"}, 500);
-  }
-});
+  leftArrovClick.click(function () {
+    if (currentLeftValue != maximumOffset) {
+      currentLeftValue += 240;
+      elementsList.animate({ left : currentLeftValue + "px"}, 200);
+    }
+  });
+
+  rightArrovClick.click(function () {
+    if (currentLeftValue != minimumOffset) {
+      currentLeftValue -= 240;
+      elementsList.animate({ left : currentLeftValue + "px"}, 200);
+    }
+  });
+
+
 
 });
