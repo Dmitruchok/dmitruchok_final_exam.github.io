@@ -51,12 +51,26 @@ var leftArrovClick = $('.carousel-arrow-left'),
 
 var pixelsOffset = 240;
 var currentLeftValue = 0;
-var elementsCount = elementsList.find('li').length;
+var elementsCount = elementsList.find('.carusel-element').length;
 var minimumOffset = - ((elementsCount - 1) * pixelsOffset);
 var maximumOffset = 0;
 
+// $('.carusel-container').each(function () {
+//   var obj = $(this).find('.carusel');
+//   console.log(obj);
+//   var sl = $(this).closest(".carusel"); // находим, в каком блоке был клик
+//   console.log(sl);
+// });
+//
+// function t(obj, sl) {
+//   var ul = $(sl).find("ul"); // находим блок
+//   var bl = $(sl).find("li.carusel"+obj); // находим любой из элементов блока
+//   var step = $(bl).width(); // ширина объекта
+//   $(ul).animate({marginLeft: "-"+step*obj}, 500); // 500 это скорость перемотки
+// };
 
   leftArrovClick.click(function () {
+    t();
     if (currentLeftValue != maximumOffset) {
       currentLeftValue += 240;
       elementsList.animate({ left : currentLeftValue + "px"}, 200);
