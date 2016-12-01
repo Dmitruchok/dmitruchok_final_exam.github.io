@@ -49,40 +49,49 @@ var leftArrovClick = $('.carousel-arrow-left'),
     rightArrovClick = $('.carousel-arrow-right '),
     elementsList = $('.container-list');
 
-var pixelsOffset = 240;
-var currentLeftValue = 0;
-var elementsCount = elementsList.find('.carusel-element').length;
-var minimumOffset = - ((elementsCount - 1) * pixelsOffset);
-var maximumOffset = 0;
+var pixelsOffset = 240,
+    currentLeftValue = 0,
+    elementsCount = elementsList.find('.carusel-element').length,
+    minimumOffset = - ((elementsCount - 1) * pixelsOffset),
+    maximumOffset = 0;
 
-// $('.carusel-container').each(function () {
-//   var obj = $(this).find('.carusel');
-//   console.log(obj);
-//   var sl = $(this).closest(".carusel"); // находим, в каком блоке был клик
-//   console.log(sl);
-// });
-//
-// function t(obj, sl) {
-//   var ul = $(sl).find("ul"); // находим блок
-//   var bl = $(sl).find("li.carusel"+obj); // находим любой из элементов блока
-//   var step = $(bl).width(); // ширина объекта
-//   $(ul).animate({marginLeft: "-"+step*obj}, 500); // 500 это скорость перемотки
-// };
+  // leftArrovClick.click(function () {
+  //   if (currentLeftValue != maximumOffset) {
+  //     currentLeftValue += 240;
+  //     elementsList.animate({ left : currentLeftValue + "px"}, 200);
+  //   }
+  // });
+  //
+  // rightArrovClick.click(function () {
+  //   if (currentLeftValue != minimumOffset) {
+  //     currentLeftValue -= 240;
+  //     elementsList.animate({ left : currentLeftValue + "px"}, 200);
+  //   }
+  // });
 
-  leftArrovClick.click(function () {
-    if (currentLeftValue != maximumOffset) {
-      currentLeftValue += 240;
-      elementsList.animate({ left : currentLeftValue + "px"}, 200);
-    }
+
+$(elementsList).each(function () {
+    var obj = $(this);
+    console.log(obj);
+    return obj;
   });
 
-  rightArrovClick.click(function () {
-    if (currentLeftValue != minimumOffset) {
-      currentLeftValue -= 240;
-      elementsList.animate({ left : currentLeftValue + "px"}, 200);
-    }
+  function slider(obj, sl) {
+    console.log(sl);
+    $('.container-list').css('left', '240px');
+    // ul.css('left', '240px');
+      if (currentLeftValue != minimumOffset) {
+          currentLeftValue -= 240;
+          elementsList.animate({ left : currentLeftValue + "px"}, 200);
+        }
+  };
+
+  rightArrovClick.click(function (obj) {
+  console.log('1=========',obj);
+    var sl = $(obj).closest('.carusel-container-box');
+    // var ul = $(sl).find('.container-list');
+     console.log(sl);
+    slider(obj, sl);
+
   });
-
-
-
 });
