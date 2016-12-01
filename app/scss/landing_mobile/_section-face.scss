@@ -9,7 +9,7 @@
     font-size: 22px;
     color: #333333;
     margin-bottom: 18px;
-    margin-top: 32px;
+    margin-top: 25px;
   }
 
   .face-one-text {
@@ -19,6 +19,7 @@
     }
     @include section-face-img;
     .face-one-h4 {
+      margin: 8px 0;
       @include section-face-h4;
     }
 
@@ -28,13 +29,15 @@
   }
 
   .face-two-text {
+    padding: 8px 0 0 0;
     &::before {
       content: url('../img/marsha.png') ;
     }
     @include section-face-img;
     .face-two-h4 {
       @include section-face-h4;
-      margin-top: 28px;
+      margin-top: 11px;
+      margin-bottom: 0;
     }
 
     .face-two-p {
@@ -43,13 +46,15 @@
   }
 
   .face-three-text {
+    padding-top: 8px;
     &::before {
       content: url('../img/walker.png') ;
     }
     @include section-face-img;
     .face-three-h4 {
       @include section-face-h4;
-      margin-top: 26px;
+      margin-top: 12px;
+      margin-bottom: 0;
     }
 
     .face-three-p {
@@ -64,7 +69,8 @@
     @include section-face-img;
     .face-four-h4 {
       @include section-face-h4;
-      margin-top: 28px;
+      margin-top: 9px;
+      margin-bottom: 0;
     }
 
     .face-four-p {

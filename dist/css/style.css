@@ -192,7 +192,7 @@ The `sprites` mixin generates identical output to the CSS template
       font-size: 22px;
       color: #333333;
       margin-bottom: 18px;
-      margin-top: 32px; }
+      margin-top: 25px; }
     .face .face-one-text {
       background-position: top;
       width: 80%;
@@ -201,11 +201,12 @@ The `sprites` mixin generates identical output to the CSS template
       .face .face-one-text::before {
         content: url("../img/hunter.png"); }
       .face .face-one-text .face-one-h4 {
-        margin: 0;
+        margin: 8px 0;
         font-size: 14px; }
       .face .face-one-text .face-one-p {
         font-family: 'Roboto-Ligh'; }
     .face .face-two-text {
+      padding: 8px 0 0 0;
       background-position: top;
       width: 80%;
       margin: 0 auto;
@@ -213,12 +214,13 @@ The `sprites` mixin generates identical output to the CSS template
       .face .face-two-text::before {
         content: url("../img/marsha.png"); }
       .face .face-two-text .face-two-h4 {
-        margin: 0;
         font-size: 14px;
-        margin-top: 28px; }
+        margin-top: 11px;
+        margin-bottom: 0; }
       .face .face-two-text .face-two-p {
         font-family: 'Roboto-Ligh'; }
     .face .face-three-text {
+      padding-top: 8px;
       background-position: top;
       width: 80%;
       margin: 0 auto;
@@ -226,9 +228,9 @@ The `sprites` mixin generates identical output to the CSS template
       .face .face-three-text::before {
         content: url("../img/walker.png"); }
       .face .face-three-text .face-three-h4 {
-        margin: 0;
         font-size: 14px;
-        margin-top: 26px; }
+        margin-top: 12px;
+        margin-bottom: 0; }
       .face .face-three-text .face-three-p {
         font-family: 'Roboto-Ligh'; }
     .face .face-four-text {
@@ -239,9 +241,9 @@ The `sprites` mixin generates identical output to the CSS template
       .face .face-four-text::before {
         content: url("../img/hunter4.png"); }
       .face .face-four-text .face-four-h4 {
-        margin: 0;
         font-size: 14px;
-        margin-top: 28px; }
+        margin-top: 9px;
+        margin-bottom: 0; }
       .face .face-four-text .face-four-p {
         font-family: 'Roboto-Ligh'; }
     .face .section-face-input {
@@ -287,7 +289,7 @@ The `sprites` mixin generates identical output to the CSS template
     font-family: "Montserrat-bold";
     border-bottom: 4px solid #ff4e50;
     padding-bottom: 41px;
-    margin: 27px 0 15px; }
+    margin: 25px 0 15px; }
     .search h2 {
       font-size: 23px;
       color: #333333;
@@ -443,7 +445,7 @@ The `sprites` mixin generates identical output to the CSS template
       font-size: 22px;
       color: #333333;
       margin-bottom: 18px;
-      margin-top: 32px; }
+      margin-top: 25px; }
     .face .face-one-text {
       background-position: top;
       width: 80%;
@@ -452,11 +454,12 @@ The `sprites` mixin generates identical output to the CSS template
       .face .face-one-text::before {
         content: url("../img/hunter.png"); }
       .face .face-one-text .face-one-h4 {
-        margin: 0;
+        margin: 8px 0;
         font-size: 14px; }
       .face .face-one-text .face-one-p {
         font-family: 'Roboto-Ligh'; }
     .face .face-two-text {
+      padding: 8px 0 0 0;
       background-position: top;
       width: 80%;
       margin: 0 auto;
@@ -464,12 +467,13 @@ The `sprites` mixin generates identical output to the CSS template
       .face .face-two-text::before {
         content: url("../img/marsha.png"); }
       .face .face-two-text .face-two-h4 {
-        margin: 0;
         font-size: 14px;
-        margin-top: 28px; }
+        margin-top: 11px;
+        margin-bottom: 0; }
       .face .face-two-text .face-two-p {
         font-family: 'Roboto-Ligh'; }
     .face .face-three-text {
+      padding-top: 8px;
       background-position: top;
       width: 80%;
       margin: 0 auto;
@@ -477,9 +481,9 @@ The `sprites` mixin generates identical output to the CSS template
       .face .face-three-text::before {
         content: url("../img/walker.png"); }
       .face .face-three-text .face-three-h4 {
-        margin: 0;
         font-size: 14px;
-        margin-top: 26px; }
+        margin-top: 12px;
+        margin-bottom: 0; }
       .face .face-three-text .face-three-p {
         font-family: 'Roboto-Ligh'; }
     .face .face-four-text {
@@ -490,9 +494,9 @@ The `sprites` mixin generates identical output to the CSS template
       .face .face-four-text::before {
         content: url("../img/hunter4.png"); }
       .face .face-four-text .face-four-h4 {
-        margin: 0;
         font-size: 14px;
-        margin-top: 28px; }
+        margin-top: 9px;
+        margin-bottom: 0; }
       .face .face-four-text .face-four-p {
         font-family: 'Roboto-Ligh'; }
     .face .section-face-input {
@@ -538,7 +542,7 @@ The `sprites` mixin generates identical output to the CSS template
     font-family: "Montserrat-bold";
     border-bottom: 4px solid #ff4e50;
     padding-bottom: 41px;
-    margin: 27px 0 15px; }
+    margin: 25px 0 15px; }
     .search h2 {
       font-size: 23px;
       color: #333333;
@@ -935,7 +939,7 @@ The `sprites` mixin generates identical output to the CSS template
       font-size: 22px;
       color: #333333;
       margin-bottom: 18px;
-      margin-top: 32px; }
+      margin-top: 25px; }
     .face .face-one-text {
       background-position: top;
       width: 80%;
@@ -944,11 +948,12 @@ The `sprites` mixin generates identical output to the CSS template
       .face .face-one-text::before {
         content: url("../img/hunter.png"); }
       .face .face-one-text .face-one-h4 {
-        margin: 0;
+        margin: 8px 0;
         font-size: 14px; }
       .face .face-one-text .face-one-p {
         font-family: 'Roboto-Ligh'; }
     .face .face-two-text {
+      padding: 8px 0 0 0;
       background-position: top;
       width: 80%;
       margin: 0 auto;
@@ -956,12 +961,13 @@ The `sprites` mixin generates identical output to the CSS template
       .face .face-two-text::before {
         content: url("../img/marsha.png"); }
       .face .face-two-text .face-two-h4 {
-        margin: 0;
         font-size: 14px;
-        margin-top: 28px; }
+        margin-top: 11px;
+        margin-bottom: 0; }
       .face .face-two-text .face-two-p {
         font-family: 'Roboto-Ligh'; }
     .face .face-three-text {
+      padding-top: 8px;
       background-position: top;
       width: 80%;
       margin: 0 auto;
@@ -969,9 +975,9 @@ The `sprites` mixin generates identical output to the CSS template
       .face .face-three-text::before {
         content: url("../img/walker.png"); }
       .face .face-three-text .face-three-h4 {
-        margin: 0;
         font-size: 14px;
-        margin-top: 26px; }
+        margin-top: 12px;
+        margin-bottom: 0; }
       .face .face-three-text .face-three-p {
         font-family: 'Roboto-Ligh'; }
     .face .face-four-text {
@@ -982,9 +988,9 @@ The `sprites` mixin generates identical output to the CSS template
       .face .face-four-text::before {
         content: url("../img/hunter4.png"); }
       .face .face-four-text .face-four-h4 {
-        margin: 0;
         font-size: 14px;
-        margin-top: 28px; }
+        margin-top: 9px;
+        margin-bottom: 0; }
       .face .face-four-text .face-four-p {
         font-family: 'Roboto-Ligh'; }
     .face .section-face-input {
@@ -1030,7 +1036,7 @@ The `sprites` mixin generates identical output to the CSS template
     font-family: "Montserrat-bold";
     border-bottom: 4px solid #ff4e50;
     padding-bottom: 41px;
-    margin: 27px 0 15px; }
+    margin: 25px 0 15px; }
     .search h2 {
       font-size: 23px;
       color: #333333;
