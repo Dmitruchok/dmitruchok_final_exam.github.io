@@ -1,6 +1,6 @@
 $(function () {
 
-var html = $('#activity-pic-containar').html();
+var html = $( '#activity-pic-containar' ).html();
 
   function loadPicture() {
     var  inputText = $( '.search-enter-text' ).val();
@@ -16,7 +16,7 @@ var html = $('#activity-pic-containar').html();
       }
     }).done(function (data) {
 
-      var template = $(data.hits);
+      var template = $( data.hits );
 
       var content = tmpl( html, {
         data: template
@@ -28,12 +28,12 @@ var html = $('#activity-pic-containar').html();
 
   loadPicture();
 
-$('.search-button').click(function () {
-  $('.result').remove('.result');
+$( '.search-button' ).click(function () {
+  $( '.result' ).remove( '.result' );
   loadPicture();
 });
 
-$('.search-enter-text' ).keypress(function enterText( e ) {
+$( '.search-enter-text' ).keypress(function enterText( e ) {
   if( e.keyCode === 13 ) {
     $( '.result' ).remove( '.result' );
     e.preventDefault();
@@ -41,57 +41,47 @@ $('.search-enter-text' ).keypress(function enterText( e ) {
   };
 })
 
-$('#activity-pic-containar').masonry({
+$( '#activity-pic-containar' ).masonry({
   itemSelector: '.item'
 });
 
-var leftArrovClick = $('.carousel-arrow-left'),
-    rightArrovClick = $('.carousel-arrow-right '),
-    elementsList = $('.container-list');
+var leftArrovClick = $( '.carousel-arrow-left' ),
+    rightArrovClick = $( '.carousel-arrow-right' );
 
 var pixelsOffset = 240,
     currentLeftValue = 0,
-    elementsCount = elementsList.find('.carusel-element').length,
-    minimumOffset = - ((elementsCount - 1) * pixelsOffset),
     maximumOffset = 0;
 
-  // leftArrovClick.click(function () {
-  //   if (currentLeftValue != maximumOffset) {
-  //     currentLeftValue += 240;
-  //     elementsList.animate({ left : currentLeftValue + "px"}, 200);
-  //   }
-  // });
-  //
-  // rightArrovClick.click(function () {
-  //   if (currentLeftValue != minimumOffset) {
-  //     currentLeftValue -= 240;
-  //     elementsList.animate({ left : currentLeftValue + "px"}, 200);
-  //   }
-  // });
+function sliderRight ( arrowInBox ) {
+ var ul = $( arrowInBox ).find(".container-list"),
+  allList = $( arrowInBox ).find("li").length,
+  minimumOffset = - ((allList - 1) * pixelsOffset);
 
+   if ( currentLeftValue != minimumOffset ) {
+     currentLeftValue -= 240;
+     $( ul ).animate({ left : currentLeftValue + "px" }, 600);
+   }
+};
 
-$(elementsList).each(function () {
-    var obj = $(this);
-    console.log(obj);
-    return obj;
-  });
+function sliderLeft( arrowInBox ) {
+ var ul = $( arrowInBox ).find( ".container-list" ),
+  allList = $( arrowInBox ).find( "li" );
+  console.log(allList.length);
 
-  function slider(obj, sl) {
-    console.log(sl);
-    $('.container-list').css('left', '240px');
-    // ul.css('left', '240px');
-      if (currentLeftValue != minimumOffset) {
-          currentLeftValue -= 240;
-          elementsList.animate({ left : currentLeftValue + "px"}, 200);
-        }
-  };
+   if ( currentLeftValue != maximumOffset)  {
+     currentLeftValue += 240;
+     $( ul ).animate({ left : currentLeftValue + "px" }, 600);
+   }
+};
 
-  rightArrovClick.click(function (obj) {
-  console.log('1=========',obj);
-    var sl = $(obj).closest('.carusel-container-box');
-    // var ul = $(sl).find('.container-list');
-     console.log(sl);
-    slider(obj, sl);
+$( document ).on( "click", ".carousel-arrow-right", function() {
+ var arrowInBox = $( this ).closest( ".carusel-container-box" );
+ sliderRight( arrowInBox );
+});
 
-  });
+$( document ).on( "click", ".carousel-arrow-left", function() {
+ var arrowInBox = $( this ).closest( ".carusel-container-box" );
+ sliderLeft( arrowInBox );
+});
+
 });
