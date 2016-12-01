@@ -1387,11 +1387,10 @@ The `sprites` mixin generates identical output to the CSS template
   section .step {
     margin-left: 10px; }
   .carusel-container {
-    display: block;
-    overflow: hidden;
-    margin: 0 8px; }
+    margin: 0 247px; }
     .carusel-container .carusel-container-box {
-      float: left; }
+      float: left;
+      margin-right: 16px; }
       .carusel-container .carusel-container-box .carousel-arrow-left {
         position: absolute;
         margin-top: 58px;
@@ -1465,32 +1464,89 @@ The `sprites` mixin generates identical output to the CSS template
               width: 240px;
               list-style: none;
               float: left; }
-  .face h2 {
-    margin-right: 4px;
-    margin-top: 95px;
-    margin-bottom: 0; }
-  .face .desk-box {
-    display: block;
-    margin-top: 28px; }
-    .face .desk-box .desk-face-one {
-      display: inline-block;
-      width: 17%; }
-      .face .desk-box .desk-face-one h4 {
-        margin-top: 0; }
-    .face .desk-box .desk-face-two {
-      display: inline-block;
-      width: 17%; }
-      .face .desk-box .desk-face-two h4 {
-        margin-top: 0; }
-    .face .desk-box .desk-face-three {
-      display: inline-block;
-      width: 17%; }
-      .face .desk-box .desk-face-three h4 {
-        margin-top: 0; }
-    .face .desk-box .desk-face-four {
-      display: inline-block;
-      width: 17%; }
-      .face .desk-box .desk-face-four h4 {
-        margin-top: 0; }
-  .face .section-face-box {
-    display: none; } }
+  .face {
+    margin: 0 0 0 251px; }
+    .face h2 {
+      margin-right: 255px;
+      margin-top: 92px;
+      margin-bottom: 33px; }
+    .face .desk-box {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      .face .desk-box .desk-face-one {
+        display: inline-block;
+        width: 18%; }
+        .face .desk-box .desk-face-one .face-one-text {
+          width: 100%; }
+          .face .desk-box .desk-face-one .face-one-text h4 {
+            margin-top: 10px; }
+      .face .desk-box .desk-face-two {
+        display: inline-block;
+        width: 18%;
+        margin-left: 26px; }
+        .face .desk-box .desk-face-two .face-two-text {
+          padding: 0;
+          width: 100%; }
+        .face .desk-box .desk-face-two h4 {
+          margin-top: 10px; }
+      .face .desk-box .desk-face-three {
+        display: inline-block;
+        width: 18%;
+        margin-left: 26px; }
+        .face .desk-box .desk-face-three .face-three-text {
+          padding-top: 0;
+          width: 100%; }
+        .face .desk-box .desk-face-three h4 {
+          margin-top: 10px; }
+      .face .desk-box .desk-face-four {
+        display: inline-block;
+        width: 18%;
+        margin-left: 26px; }
+        .face .desk-box .desk-face-four .face-four-text {
+          padding: 0;
+          width: 100%; }
+        .face .desk-box .desk-face-four h4 {
+          margin-top: 10px; }
+    .face .section-face-input {
+      margin-top: 19px;
+      margin-left: 368px; }
+    .face .section-face-box {
+      display: none; }
+  .activity {
+    height: 1050px; }
+    .activity h2 {
+      margin-bottom: 37px;
+      margin-right: 3px; }
+    .activity .result {
+      margin: 0 239px; }
+      .activity .result div {
+        width: 300px; }
+      .activity .result .item-5 {
+        width: 620px; }
+      .activity .result .item-6 {
+        width: 620px; }
+  .search h2 {
+    margin: 0 10px 35px 6px; }
+  .search span {
+    margin-bottom: 39px; }
+  .search .search-enter-text {
+    width: 235px;
+    margin-left: 114px; }
+  .search .search-button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 0 113px 0 5px; }
+  .foot {
+    margin: 0 245px; }
+    .foot h4 {
+      margin: 0 0 0 4px; }
+    .foot .foot-box-one {
+      margin-left: 97px; }
+    .foot .foot-box-two {
+      margin-left: 93px; }
+      .foot .foot-box-two span {
+        margin-left: 365px; }
+        .foot .foot-box-two span::after {
+          margin-top: 6px; } }

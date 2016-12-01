@@ -1,0 +1,23 @@
+@import "../scss/_mixins";
+
+.search {
+
+  h2 {
+    margin: 0 10px 35px 6px;
+  }
+
+  span {
+    margin-bottom: 39px;
+  }
+
+  .search-enter-text {
+    width: 235px;
+    margin-left: 114px;
+  }
+
+  .search-button {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 0 113px 0 5px;
+  }
+}

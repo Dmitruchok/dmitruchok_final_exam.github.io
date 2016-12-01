@@ -1,12 +1,10 @@
 .carusel-container {
-  display: block;
-  overflow: hidden;
-  margin: 0 8px;
+  margin: 0 247px;
 
 
   .carusel-container-box {
     float: left;
-    // margin-right: 16px;
+    margin-right: 16px;
     @include carusel;
   }
 

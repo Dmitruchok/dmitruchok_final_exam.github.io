@@ -1,0 +1,25 @@
+  @import "../scss/_mixins";
+
+.activity {
+  height: 1050px;
+  h2 {
+    margin-bottom: 37px;
+    margin-right: 3px;
+  }
+
+  .result {
+    margin: 0 239px;
+    div {
+      width: 300px;
+    }
+
+    .item-5 {
+    width: 620px;
+    }
+
+    .item-6 {
+    width: 620px;
+    }
+  }
+
+}

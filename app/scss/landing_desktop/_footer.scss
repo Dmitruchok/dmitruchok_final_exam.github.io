@@ -1,0 +1,23 @@
+@import "../scss/_mixins";
+
+.foot {
+  margin: 0 245px;
+  h4 {
+    margin: 0 0 0 4px;
+  }
+
+  .foot-box-one {
+    margin-left: 97px;
+  }
+
+  .foot-box-two {
+    margin-left: 93px;
+
+    span {
+      margin-left: 365px;
+      &::after {
+        margin-top: 6px;
+      }
+    }
+  }
+}

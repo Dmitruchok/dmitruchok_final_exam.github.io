@@ -1,48 +1,71 @@
   @import "../scss/_mixins";
 
   .face {
-
+    margin: 0 0 0 251px;
     h2 {
-      margin-right: 4px;
-      margin-top: 95px;
-      margin-bottom: 0;
+      margin-right: 255px;
+      margin-top: 92px;
+      margin-bottom: 33px;
     }
 
     .desk-box {
-      display: block;
-      margin-top: 28px;
+      display: flex;
 
       .desk-face-one {
         display: inline-block;
-        width: 17%;
-        h4 {
-          margin-top: 0;
+        width: 18%;
+        .face-one-text {
+          width: 100%;
+          h4 {
+            margin-top: 10px;
+          }
         }
       }
 
       .desk-face-two {
         display: inline-block;
-        width: 17%;
+        width: 18%;
+        margin-left: 26px;
+        .face-two-text {
+          padding: 0;
+          width: 100%;
+        }
         h4 {
-          margin-top: 0;
+          margin-top: 10px;
         }
       }
 
       .desk-face-three {
         display: inline-block;
-        width: 17%;
+        width: 18%;
+        margin-left: 26px;
+        .face-three-text {
+          padding-top: 0;
+          width: 100%;
+        }
         h4 {
-          margin-top: 0;
+          margin-top: 10px;
         }
       }
 
       .desk-face-four {
         display: inline-block;
-        width: 17%;
+        width: 18%;
+        margin-left: 26px;
+
+        .face-four-text {
+          padding: 0;
+          width: 100%;
+        }
         h4 {
-          margin-top: 0;
+          margin-top: 10px;
         }
       }
+    }
+
+    .section-face-input {
+      margin-top: 19px;
+      margin-left: 368px;
     }
 
     .section-face-box {
