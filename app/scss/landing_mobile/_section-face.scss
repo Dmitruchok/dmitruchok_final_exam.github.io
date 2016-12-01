@@ -13,7 +13,10 @@
   }
 
   .face-one-text {
-    background: url('../img/hunter.png') no-repeat;
+
+    &::before {
+      content: url('../img/hunter.png') ;
+    }
     @include section-face-img;
     .face-one-h4 {
       @include section-face-h4;
@@ -25,7 +28,9 @@
   }
 
   .face-two-text {
-    background: url('../img/marsha.png') no-repeat;
+    &::before {
+      content: url('../img/marsha.png') ;
+    }
     @include section-face-img;
     .face-two-h4 {
       @include section-face-h4;
@@ -38,7 +43,9 @@
   }
 
   .face-three-text {
-    background: url('../img/walker.png') no-repeat;
+    &::before {
+      content: url('../img/walker.png') ;
+    }
     @include section-face-img;
     .face-three-h4 {
       @include section-face-h4;
@@ -51,7 +58,9 @@
   }
 
   .face-four-text {
-    background: url('../img/hunter4.png') no-repeat;
+    &::before {
+      content: url('../img/hunter4.png') ;
+    }
     @include section-face-img;
     .face-four-h4 {
       @include section-face-h4;
@@ -75,5 +84,9 @@
     color: #ff4e50;
     border-radius: 20px;
   }
+
+  .desk-box {
+    display: none;
+}
 
 }

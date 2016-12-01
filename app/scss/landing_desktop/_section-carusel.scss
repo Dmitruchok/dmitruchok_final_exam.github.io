@@ -1,0 +1,22 @@
+.carusel-container {
+  display: block;
+  overflow: hidden;
+  margin: 0 8px;
+
+
+  .carusel-container-box {
+    float: left;
+    // margin-right: 16px;
+    @include carusel;
+  }
+
+  .carusel-container-box-2 {
+    float: left;
+    @include carusel;
+  }
+
+  .carusel-container-box-3 {
+    float: left;
+    @include carusel;
+  }
+}

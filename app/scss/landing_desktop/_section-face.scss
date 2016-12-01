@@ -1,0 +1,52 @@
+  @import "../scss/_mixins";
+
+  .face {
+
+    h2 {
+      margin-right: 4px;
+      margin-top: 95px;
+      margin-bottom: 0;
+    }
+
+    .desk-box {
+      display: block;
+      margin-top: 28px;
+
+      .desk-face-one {
+        display: inline-block;
+        width: 17%;
+        h4 {
+          margin-top: 0;
+        }
+      }
+
+      .desk-face-two {
+        display: inline-block;
+        width: 17%;
+        h4 {
+          margin-top: 0;
+        }
+      }
+
+      .desk-face-three {
+        display: inline-block;
+        width: 17%;
+        h4 {
+          margin-top: 0;
+        }
+      }
+
+      .desk-face-four {
+        display: inline-block;
+        width: 17%;
+        h4 {
+          margin-top: 0;
+        }
+      }
+    }
+
+    .section-face-box {
+      display: none;
+    }
+
+  }
