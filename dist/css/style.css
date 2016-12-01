@@ -187,7 +187,7 @@ The `sprites` mixin generates identical output to the CSS template
   .face {
     text-align: center;
     font-family: "Montserrat-bold";
-    margin: 25px; }
+    margin: 32px 25px; }
     .face h2 {
       font-size: 22px;
       color: #333333;
@@ -234,6 +234,7 @@ The `sprites` mixin generates identical output to the CSS template
       .face .face-three-text .face-three-p {
         font-family: 'Roboto-Ligh'; }
     .face .face-four-text {
+      padding-top: 8px;
       background-position: top;
       width: 80%;
       margin: 0 auto;
@@ -289,7 +290,7 @@ The `sprites` mixin generates identical output to the CSS template
     font-family: "Montserrat-bold";
     border-bottom: 4px solid #ff4e50;
     padding-bottom: 41px;
-    margin: 25px 0 15px; }
+    margin: 28px 0 15px; }
     .search h2 {
       font-size: 23px;
       color: #333333;
@@ -440,7 +441,7 @@ The `sprites` mixin generates identical output to the CSS template
   .face {
     text-align: center;
     font-family: "Montserrat-bold";
-    margin: 25px; }
+    margin: 32px 25px; }
     .face h2 {
       font-size: 22px;
       color: #333333;
@@ -487,6 +488,7 @@ The `sprites` mixin generates identical output to the CSS template
       .face .face-three-text .face-three-p {
         font-family: 'Roboto-Ligh'; }
     .face .face-four-text {
+      padding-top: 8px;
       background-position: top;
       width: 80%;
       margin: 0 auto;
@@ -542,7 +544,7 @@ The `sprites` mixin generates identical output to the CSS template
     font-family: "Montserrat-bold";
     border-bottom: 4px solid #ff4e50;
     padding-bottom: 41px;
-    margin: 25px 0 15px; }
+    margin: 28px 0 15px; }
     .search h2 {
       font-size: 23px;
       color: #333333;
@@ -678,7 +680,8 @@ The `sprites` mixin generates identical output to the CSS template
     overflow: hidden;
     margin: 0 8px; }
     .carusel-container .carusel-container-box {
-      float: left; }
+      float: left;
+      margin-right: 16px; }
       .carusel-container .carusel-container-box .carousel-arrow-left {
         position: absolute;
         margin-top: 58px;
@@ -757,40 +760,48 @@ The `sprites` mixin generates identical output to the CSS template
     margin: 25px; }
     .face h2 {
       margin-top: 95px;
-      margin-right: 49px;
+      margin-right: 6px;
       margin-bottom: 32px; }
-    .face .left-section {
-      display: inline-block;
-      width: 35%; }
-      .face .left-section .section-face-one .face-one-text p {
-        margin-top: 12px; }
-      .face .left-section .section-face-two {
-        padding-top: 13px; }
-        .face .left-section .section-face-two .face-two-text {
-          width: 90%;
-          font-size: 16px; }
-          .face .left-section .section-face-two .face-two-text p {
+    .face .section-face-box {
+      margin: 0 25px 0 85px; }
+      .face .section-face-box .left-section {
+        display: inline-block;
+        width: 35%; }
+        .face .section-face-box .left-section .section-face-one .face-one-text {
+          width: 100%; }
+          .face .section-face-box .left-section .section-face-one .face-one-text p {
             margin-top: 12px; }
-    .face .right-section {
-      float: right;
-      margin-right: 103px;
-      width: 35%; }
-      .face .right-section .section-face-three .face-three-text {
-        width: 90%; }
-        .face .right-section .section-face-three .face-three-text h4 {
-          margin-top: 0; }
-        .face .right-section .section-face-three .face-three-text p {
-          margin-top: 12px; }
-      .face .right-section .section-face-four {
-        padding-top: 14px; }
+        .face .section-face-box .left-section .section-face-two {
+          padding-top: 13px; }
+          .face .section-face-box .left-section .section-face-two .face-two-text {
+            padding: 29px 0 0 0;
+            width: 100%;
+            font-size: 16px; }
+            .face .section-face-box .left-section .section-face-two .face-two-text p {
+              margin-top: 12px; }
+      .face .section-face-box .right-section {
+        float: right;
+        margin-right: 98px;
+        width: 35%; }
+        .face .section-face-box .right-section .section-face-three .face-three-text {
+          width: 100%;
+          padding-top: 0; }
+          .face .section-face-box .right-section .section-face-three .face-three-text h4 {
+            margin-top: 8px; }
+          .face .section-face-box .right-section .section-face-three .face-three-text p {
+            margin-top: 12px; }
+        .face .section-face-box .right-section .section-face-four {
+          padding-top: 35px; }
+          .face .section-face-box .right-section .section-face-four .face-four-text {
+            width: 100%; }
     .face .section-face-input {
       clear: both;
       padding: 10px 28px;
-      margin-top: 18px; }
+      margin-top: 15px;
+      margin-left: 175px; }
   .activity {
     height: 1050px; }
     .activity h2 {
-      margin-left: 10px;
       margin-bottom: 37px; }
     .activity .result div {
       padding-bottom: 8px;
@@ -934,7 +945,7 @@ The `sprites` mixin generates identical output to the CSS template
   .face {
     text-align: center;
     font-family: "Montserrat-bold";
-    margin: 25px; }
+    margin: 32px 25px; }
     .face h2 {
       font-size: 22px;
       color: #333333;
@@ -981,6 +992,7 @@ The `sprites` mixin generates identical output to the CSS template
       .face .face-three-text .face-three-p {
         font-family: 'Roboto-Ligh'; }
     .face .face-four-text {
+      padding-top: 8px;
       background-position: top;
       width: 80%;
       margin: 0 auto;
@@ -1036,7 +1048,7 @@ The `sprites` mixin generates identical output to the CSS template
     font-family: "Montserrat-bold";
     border-bottom: 4px solid #ff4e50;
     padding-bottom: 41px;
-    margin: 25px 0 15px; }
+    margin: 28px 0 15px; }
     .search h2 {
       font-size: 23px;
       color: #333333;
@@ -1172,7 +1184,8 @@ The `sprites` mixin generates identical output to the CSS template
     overflow: hidden;
     margin: 0 8px; }
     .carusel-container .carusel-container-box {
-      float: left; }
+      float: left;
+      margin-right: 16px; }
       .carusel-container .carusel-container-box .carousel-arrow-left {
         position: absolute;
         margin-top: 58px;
@@ -1251,40 +1264,48 @@ The `sprites` mixin generates identical output to the CSS template
     margin: 25px; }
     .face h2 {
       margin-top: 95px;
-      margin-right: 49px;
+      margin-right: 6px;
       margin-bottom: 32px; }
-    .face .left-section {
-      display: inline-block;
-      width: 35%; }
-      .face .left-section .section-face-one .face-one-text p {
-        margin-top: 12px; }
-      .face .left-section .section-face-two {
-        padding-top: 13px; }
-        .face .left-section .section-face-two .face-two-text {
-          width: 90%;
-          font-size: 16px; }
-          .face .left-section .section-face-two .face-two-text p {
+    .face .section-face-box {
+      margin: 0 25px 0 85px; }
+      .face .section-face-box .left-section {
+        display: inline-block;
+        width: 35%; }
+        .face .section-face-box .left-section .section-face-one .face-one-text {
+          width: 100%; }
+          .face .section-face-box .left-section .section-face-one .face-one-text p {
             margin-top: 12px; }
-    .face .right-section {
-      float: right;
-      margin-right: 103px;
-      width: 35%; }
-      .face .right-section .section-face-three .face-three-text {
-        width: 90%; }
-        .face .right-section .section-face-three .face-three-text h4 {
-          margin-top: 0; }
-        .face .right-section .section-face-three .face-three-text p {
-          margin-top: 12px; }
-      .face .right-section .section-face-four {
-        padding-top: 14px; }
+        .face .section-face-box .left-section .section-face-two {
+          padding-top: 13px; }
+          .face .section-face-box .left-section .section-face-two .face-two-text {
+            padding: 29px 0 0 0;
+            width: 100%;
+            font-size: 16px; }
+            .face .section-face-box .left-section .section-face-two .face-two-text p {
+              margin-top: 12px; }
+      .face .section-face-box .right-section {
+        float: right;
+        margin-right: 98px;
+        width: 35%; }
+        .face .section-face-box .right-section .section-face-three .face-three-text {
+          width: 100%;
+          padding-top: 0; }
+          .face .section-face-box .right-section .section-face-three .face-three-text h4 {
+            margin-top: 8px; }
+          .face .section-face-box .right-section .section-face-three .face-three-text p {
+            margin-top: 12px; }
+        .face .section-face-box .right-section .section-face-four {
+          padding-top: 35px; }
+          .face .section-face-box .right-section .section-face-four .face-four-text {
+            width: 100%; }
     .face .section-face-input {
       clear: both;
       padding: 10px 28px;
-      margin-top: 18px; }
+      margin-top: 15px;
+      margin-left: 175px; }
   .activity {
     height: 1050px; }
     .activity h2 {
-      margin-left: 10px;
       margin-bottom: 37px; }
     .activity .result div {
       padding-bottom: 8px;

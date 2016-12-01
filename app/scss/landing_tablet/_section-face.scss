@@ -1,75 +1,82 @@
   @import "../scss/_mixins";
 
-
-
 .face {
   clear: both;
   margin: 25px;
 
   h2 {
     margin-top: 95px;
-    margin-right: 49px;
+    margin-right: 6px;
     margin-bottom: 32px;
   }
 
-  .left-section {
-    display: inline-block;
-    // float: left;
-    width: 35%;
-    // margin-left: 108px;
-    .section-face-one {
-      .face-one-text {
-        h4 {
-          // padding-top: 139px;
-        }
+  .section-face-box {
+    margin: 0 25px 0 85px;
 
-        p {
-          margin-top: 12px;
+    .left-section {
+      display: inline-block;
+      width: 35%;
+      .section-face-one {
+        .face-one-text {
+          width: 100%;
+          h4 {
+            // padding-top: 139px;
+          }
+
+          p {
+            margin-top: 12px;
+          }
+        }
+      }
+
+      .section-face-two {
+        padding-top: 13px;
+        .face-two-text {
+          padding: 29px 0 0 0;
+          width: 100%;
+          font-size: 16px;
+
+          p {
+            margin-top: 12px;
+          }
         }
       }
     }
 
-    .section-face-two {
-      padding-top: 13px;
-      .face-two-text {
-        width: 90%;
-        font-size: 16px;
+    .right-section {
+      float: right;
+      margin-right: 98px;
+      width: 35%;
+      .section-face-three {
+        .face-three-text {
+          width: 100%;
+          padding-top: 0;
+          h4 {
+            margin-top: 8px;
+          }
 
-        p {
-          margin-top: 12px;
+          p {
+            margin-top: 12px;
+          }
+        }
+      }
+
+      .section-face-four {
+        padding-top: 35px;
+
+        .face-four-text {
+            width: 100%;
         }
       }
     }
   }
 
-  .right-section {
-    float: right;
-    margin-right: 103px;
-    width: 35%;
-    .section-face-three {
-      .face-three-text {
-        width: 90%;
-
-        h4 {
-          // padding-top: 138px;
-          margin-top: 0;
-        }
-
-        p {
-          margin-top: 12px;
-        }
-      }
-    }
-
-    .section-face-four {
-      padding-top: 14px;
-    }
-  }
 
   .section-face-input {
     clear: both;
     padding: 10px 28px;
-    margin-top: 18px;
+    margin-top: 15px;
+    margin-left: 175px;
   }
 
 }

@@ -3,7 +3,7 @@
 .face {
   text-align: center;
   font-family: $header-font;
-  margin: 25px;
+  margin: 32px 25px;
 
   h2 {
     font-size: 22px;
@@ -63,6 +63,7 @@
   }
 
   .face-four-text {
+    padding-top: 8px;
     &::before {
       content: url('../img/hunter4.png') ;
     }
