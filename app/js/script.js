@@ -55,8 +55,9 @@ var pixelsOffset = 240,
 
 function sliderRight ( arrowInBox ) {
  var ul = $( arrowInBox ).find(".container-list"),
-  allList = $( arrowInBox ).find("li.carusel").length,
-  allListDesk = $( arrowInBox ).find("li.carusel-desk").length,
+  carusel = $( arrowInBox ).find(".carusel"),
+  allList = $( arrowInBox ).find(".carusel li").length,
+  allListDesk = $( arrowInBox ).find(".carusel-desk li").length,
   minimumOffset = - ((allList - 1) * pixelsOffset);
   // minimumOffsetDesk = -((allListDesk - 1) * pixelsOffsetDesk);
 
