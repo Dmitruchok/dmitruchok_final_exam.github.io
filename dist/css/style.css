@@ -1421,34 +1421,6 @@ The `sprites` mixin generates identical output to the CSS template
               width: 300px;
               list-style: none;
               float: left; }
-    .carusel-container .carusel-container-box {
-      float: left; }
-      .carusel-container .carusel-container-box .carousel-arrow-left {
-        position: absolute;
-        margin-top: 58px;
-        margin-left: 22px;
-        z-index: 5; }
-      .carusel-container .carusel-container-box .carousel-arrow-right {
-        position: absolute;
-        margin-top: 57px;
-        margin-left: 250px;
-        z-index: 5; }
-      .carusel-container .carusel-container-box .main-block {
-        width: 300px;
-        overflow: hidden; }
-        .carusel-container .carusel-container-box .main-block .container-list {
-          float: left;
-          position: relative; }
-          .carusel-container .carusel-container-box .main-block .container-list .carusel {
-            display: none; }
-          .carusel-container .carusel-container-box .main-block .container-list .carusel-desk {
-            display: block;
-            width: 9999px;
-            padding: 0; }
-            .carusel-container .carusel-container-box .main-block .container-list .carusel-desk li {
-              width: 300px;
-              list-style: none;
-              float: left; }
     .carusel-container .carusel-container-box-3 {
       float: left; }
       .carusel-container .carusel-container-box-3 .carousel-arrow-left {

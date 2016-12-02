@@ -49,13 +49,16 @@ var leftArrovClick = $( '.carousel-arrow-left' ),
     rightArrovClick = $( '.carousel-arrow-right' );
 
 var pixelsOffset = 240,
+    pixelsOffsetDesk = 300,
     currentLeftValue = 0,
     maximumOffset = 0;
 
 function sliderRight ( arrowInBox ) {
  var ul = $( arrowInBox ).find(".container-list"),
-  allList = $( arrowInBox ).find("li").length,
+  allList = $( arrowInBox ).find("li.carusel").length,
+  allListDesk = $( arrowInBox ).find("li.carusel-desk").length,
   minimumOffset = - ((allList - 1) * pixelsOffset);
+  // minimumOffsetDesk = -((allListDesk - 1) * pixelsOffsetDesk);
 
    if ( currentLeftValue != minimumOffset ) {
      currentLeftValue -= 240;
@@ -65,8 +68,7 @@ function sliderRight ( arrowInBox ) {
 
 function sliderLeft( arrowInBox ) {
  var ul = $( arrowInBox ).find( ".container-list" ),
-  allList = $( arrowInBox ).find( "li" );
-  console.log(allList.length);
+  allList = $( arrowInBox ).find( "li.carusel" );
 
    if ( currentLeftValue != maximumOffset)  {
      currentLeftValue += 240;
