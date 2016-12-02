@@ -10,7 +10,7 @@
     @include carusel;
   }
 
-  .carusel-container-box-2 {
+  .carusel-container-box {
     float: left;
     @include carusel;
   }
@@ -18,5 +18,9 @@
   .carusel-container-box-3 {
     float: left;
     @include carusel;
+  }
+
+  .carusel-desk {
+    display: none;
   }
 }

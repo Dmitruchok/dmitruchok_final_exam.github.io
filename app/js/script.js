@@ -75,12 +75,12 @@ function sliderLeft( arrowInBox ) {
 };
 
 $( document ).on( "click", ".carousel-arrow-right", function() {
- var arrowInBox = $( this ).closest( ".carusel-container-box" );
+ var arrowInBox = $( this ).closest( ".main-block" );
  sliderRight( arrowInBox );
 });
 
 $( document ).on( "click", ".carousel-arrow-left", function() {
- var arrowInBox = $( this ).closest( ".carusel-container-box" );
+ var arrowInBox = $( this ).closest( ".main-block" );
  sliderLeft( arrowInBox );
 });
 

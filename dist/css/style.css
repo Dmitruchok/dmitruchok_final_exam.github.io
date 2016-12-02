@@ -705,28 +705,28 @@ The `sprites` mixin generates identical output to the CSS template
               width: 240px;
               list-style: none;
               float: left; }
-    .carusel-container .carusel-container-box-2 {
+    .carusel-container .carusel-container-box {
       float: left; }
-      .carusel-container .carusel-container-box-2 .carousel-arrow-left {
+      .carusel-container .carusel-container-box .carousel-arrow-left {
         position: absolute;
         margin-top: 58px;
         margin-left: 22px;
         z-index: 5; }
-      .carusel-container .carusel-container-box-2 .carousel-arrow-right {
+      .carusel-container .carusel-container-box .carousel-arrow-right {
         position: absolute;
         margin-top: 57px;
         margin-left: 187px;
         z-index: 5; }
-      .carusel-container .carusel-container-box-2 .main-block {
+      .carusel-container .carusel-container-box .main-block {
         width: 240px;
         overflow: hidden; }
-        .carusel-container .carusel-container-box-2 .main-block .container-list {
+        .carusel-container .carusel-container-box .main-block .container-list {
           float: left;
           position: relative; }
-          .carusel-container .carusel-container-box-2 .main-block .container-list .carusel {
+          .carusel-container .carusel-container-box .main-block .container-list .carusel {
             width: 9999px;
             padding: 0; }
-            .carusel-container .carusel-container-box-2 .main-block .container-list .carusel li {
+            .carusel-container .carusel-container-box .main-block .container-list .carusel li {
               width: 240px;
               list-style: none;
               float: left; }
@@ -755,6 +755,8 @@ The `sprites` mixin generates identical output to the CSS template
               width: 240px;
               list-style: none;
               float: left; }
+    .carusel-container .carusel-desk {
+      display: none; }
   .face {
     clear: both;
     margin: 25px; }
@@ -1209,28 +1211,28 @@ The `sprites` mixin generates identical output to the CSS template
               width: 240px;
               list-style: none;
               float: left; }
-    .carusel-container .carusel-container-box-2 {
+    .carusel-container .carusel-container-box {
       float: left; }
-      .carusel-container .carusel-container-box-2 .carousel-arrow-left {
+      .carusel-container .carusel-container-box .carousel-arrow-left {
         position: absolute;
         margin-top: 58px;
         margin-left: 22px;
         z-index: 5; }
-      .carusel-container .carusel-container-box-2 .carousel-arrow-right {
+      .carusel-container .carusel-container-box .carousel-arrow-right {
         position: absolute;
         margin-top: 57px;
         margin-left: 187px;
         z-index: 5; }
-      .carusel-container .carusel-container-box-2 .main-block {
+      .carusel-container .carusel-container-box .main-block {
         width: 240px;
         overflow: hidden; }
-        .carusel-container .carusel-container-box-2 .main-block .container-list {
+        .carusel-container .carusel-container-box .main-block .container-list {
           float: left;
           position: relative; }
-          .carusel-container .carusel-container-box-2 .main-block .container-list .carusel {
+          .carusel-container .carusel-container-box .main-block .container-list .carusel {
             width: 9999px;
             padding: 0; }
-            .carusel-container .carusel-container-box-2 .main-block .container-list .carusel li {
+            .carusel-container .carusel-container-box .main-block .container-list .carusel li {
               width: 240px;
               list-style: none;
               float: left; }
@@ -1259,6 +1261,8 @@ The `sprites` mixin generates identical output to the CSS template
               width: 240px;
               list-style: none;
               float: left; }
+    .carusel-container .carusel-desk {
+      display: none; }
   .face {
     clear: both;
     margin: 25px; }
@@ -1399,44 +1403,50 @@ The `sprites` mixin generates identical output to the CSS template
       .carusel-container .carusel-container-box .carousel-arrow-right {
         position: absolute;
         margin-top: 57px;
-        margin-left: 187px;
+        margin-left: 250px;
         z-index: 5; }
       .carusel-container .carusel-container-box .main-block {
-        width: 240px;
+        width: 300px;
         overflow: hidden; }
         .carusel-container .carusel-container-box .main-block .container-list {
           float: left;
           position: relative; }
           .carusel-container .carusel-container-box .main-block .container-list .carusel {
+            display: none; }
+          .carusel-container .carusel-container-box .main-block .container-list .carusel-desk {
+            display: block;
             width: 9999px;
             padding: 0; }
-            .carusel-container .carusel-container-box .main-block .container-list .carusel li {
-              width: 240px;
+            .carusel-container .carusel-container-box .main-block .container-list .carusel-desk li {
+              width: 300px;
               list-style: none;
               float: left; }
-    .carusel-container .carusel-container-box-2 {
+    .carusel-container .carusel-container-box {
       float: left; }
-      .carusel-container .carusel-container-box-2 .carousel-arrow-left {
+      .carusel-container .carusel-container-box .carousel-arrow-left {
         position: absolute;
         margin-top: 58px;
         margin-left: 22px;
         z-index: 5; }
-      .carusel-container .carusel-container-box-2 .carousel-arrow-right {
+      .carusel-container .carusel-container-box .carousel-arrow-right {
         position: absolute;
         margin-top: 57px;
-        margin-left: 187px;
+        margin-left: 250px;
         z-index: 5; }
-      .carusel-container .carusel-container-box-2 .main-block {
-        width: 240px;
+      .carusel-container .carusel-container-box .main-block {
+        width: 300px;
         overflow: hidden; }
-        .carusel-container .carusel-container-box-2 .main-block .container-list {
+        .carusel-container .carusel-container-box .main-block .container-list {
           float: left;
           position: relative; }
-          .carusel-container .carusel-container-box-2 .main-block .container-list .carusel {
+          .carusel-container .carusel-container-box .main-block .container-list .carusel {
+            display: none; }
+          .carusel-container .carusel-container-box .main-block .container-list .carusel-desk {
+            display: block;
             width: 9999px;
             padding: 0; }
-            .carusel-container .carusel-container-box-2 .main-block .container-list .carusel li {
-              width: 240px;
+            .carusel-container .carusel-container-box .main-block .container-list .carusel-desk li {
+              width: 300px;
               list-style: none;
               float: left; }
     .carusel-container .carusel-container-box-3 {
@@ -1449,19 +1459,22 @@ The `sprites` mixin generates identical output to the CSS template
       .carusel-container .carusel-container-box-3 .carousel-arrow-right {
         position: absolute;
         margin-top: 57px;
-        margin-left: 187px;
+        margin-left: 250px;
         z-index: 5; }
       .carusel-container .carusel-container-box-3 .main-block {
-        width: 240px;
+        width: 300px;
         overflow: hidden; }
         .carusel-container .carusel-container-box-3 .main-block .container-list {
           float: left;
           position: relative; }
           .carusel-container .carusel-container-box-3 .main-block .container-list .carusel {
+            display: none; }
+          .carusel-container .carusel-container-box-3 .main-block .container-list .carusel-desk {
+            display: block;
             width: 9999px;
             padding: 0; }
-            .carusel-container .carusel-container-box-3 .main-block .container-list .carusel li {
-              width: 240px;
+            .carusel-container .carusel-container-box-3 .main-block .container-list .carusel-desk li {
+              width: 300px;
               list-style: none;
               float: left; }
   .face {

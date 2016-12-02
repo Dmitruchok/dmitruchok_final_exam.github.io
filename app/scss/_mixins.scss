@@ -43,11 +43,52 @@
         position: relative;
         // left: -240px;
 
-        .carusel{
+        .carusel {
           width: 9999px;
           padding: 0;
           li {
             width: 240px;
+            list-style: none;
+            float: left;
+          }
+        }
+      }
+    }
+}
+
+@mixin carusel-desk {
+    .carousel-arrow-left {
+      position: absolute;
+      margin-top: 58px;
+      margin-left: 22px;
+      z-index: 5;
+    }
+
+    .carousel-arrow-right {
+      position: absolute;
+      margin-top: 57px;
+      margin-left: 250px;
+      z-index: 5;
+    }
+
+    .main-block {
+      width: 300px;
+      overflow: hidden;
+
+      .container-list {
+        float: left;
+        position: relative;
+
+        .carusel {
+          display: none;
+        }
+
+        .carusel-desk {
+          display: block;
+          width: 9999px;
+          padding: 0;
+          li {
+            width: 300px;
             list-style: none;
             float: left;
           }
