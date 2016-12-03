@@ -45,41 +45,57 @@ $( '#activity-pic-containar' ).masonry({
   itemSelector: '.item'
 });
 
-var leftArrovClick = $( '.carousel-arrow-left' ),
-    rightArrovClick = $( '.carousel-arrow-right' );
 
-var pixelsOffset = 240,
-    pixelsOffsetDesk = 300,
-    currentLeftValue = 0,
+var currentLeftValue = 0,
     maximumOffset = 0;
 
-function sliderRight ( arrowInBox ) {
- var ul = $( arrowInBox ).find(".container-list"),
-  carusel = $( arrowInBox ).find(".carusel"),
-  allList = $( arrowInBox ).find(".carusel li").length,
-  allListDesk = $( arrowInBox ).find(".carusel-desk li").length,
-  minimumOffset = - ((allList - 1) * pixelsOffset);
-  // minimumOffsetDesk = -((allListDesk - 1) * pixelsOffsetDesk);
+function sliderRight ( arrowInBox) {
+console.log(arrowInBox);
+var img = $(arrowInBox).find('li').width();
+// var left = $(arrowInBox).find('.container-list').height();
+console.log(img);
 
-   if ( currentLeftValue != minimumOffset ) {
-     currentLeftValue -= 240;
-     $( ul ).animate({ left : currentLeftValue + "px" }, 600);
-   }
+  if ( img == 300 ) {
+    var ul = $( arrowInBox ).find(".container-list-desk"),
+        allList = $( arrowInBox ).find("li").length,
+        minimumOffset = - ((allList - 1) * img);
+        var left = $( arrowInBox ).find(".container-list-desk").position();
+        console.log(left);
+
+    if ( currentLeftValue != minimumOffset ) {
+      currentLeftValue -= img;
+      $( ul ).animate({ left : currentLeftValue + "px" }, 600);
+    }
+  } else {
+    var ul = $( arrowInBox ).find(".container-list"),
+        allList = $( arrowInBox ).find("li").length,
+        minimumOffset = - ((allList - 1) * img);
+
+      if ( currentLeftValue != minimumOffset ) {
+        currentLeftValue -= img;
+        $( ul ).animate({ left : currentLeftValue + "px" }, 600);
+      }
+  }
 };
 
-function sliderLeft( arrowInBox ) {
- var ul = $( arrowInBox ).find( ".container-list" ),
-  allList = $( arrowInBox ).find( "li.carusel" );
-
-   if ( currentLeftValue != maximumOffset)  {
-     currentLeftValue += 240;
-     $( ul ).animate({ left : currentLeftValue + "px" }, 600);
-   }
-};
+// function sliderLeft( arrowInBox ) {
+//  var ul = $( arrowInBox ).find( ".container-list" ),
+//      allList = $( arrowInBox ).find( "li" );
+//
+//    if ( currentLeftValue != maximumOffset)  {
+//      currentLeftValue += img;
+//      $( ul ).animate({ left : currentLeftValue + "px" }, 600);
+//    };
+// };
 
 $( document ).on( "click", ".carousel-arrow-right", function() {
  var arrowInBox = $( this ).closest( ".main-block" );
  sliderRight( arrowInBox );
+});
+
+$( document ).on( "click", ".carousel-arrow-right-desk", function() {
+ var arrowInBox = $( this ).closest( ".main-block" );
+  sliderRight( arrowInBox );
 });
 
 $( document ).on( "click", ".carousel-arrow-left", function() {

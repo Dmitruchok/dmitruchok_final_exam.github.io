@@ -1,5 +1,5 @@
 .carusel-container {
-  margin: 0 247px;
+  margin: 0 232px 0 252px;
 
 
   .carusel-container-box {
@@ -11,5 +11,6 @@
   .carusel-container-box-3 {
     float: left;
     @include carusel-desk;
+
   }
 }

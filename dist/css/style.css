@@ -678,10 +678,10 @@ The `sprites` mixin generates identical output to the CSS template
   .carusel-container {
     display: block;
     overflow: hidden;
-    margin: 0 8px; }
+    margin: 0 3px; }
     .carusel-container .carusel-container-box {
       float: left;
-      margin-right: 16px; }
+      margin-right: 12px; }
       .carusel-container .carusel-container-box .carousel-arrow-left {
         position: absolute;
         margin-top: 58px;
@@ -692,31 +692,10 @@ The `sprites` mixin generates identical output to the CSS template
         margin-top: 57px;
         margin-left: 187px;
         z-index: 5; }
-      .carusel-container .carusel-container-box .main-block {
-        width: 240px;
-        overflow: hidden; }
-        .carusel-container .carusel-container-box .main-block .container-list {
-          float: left;
-          position: relative; }
-          .carusel-container .carusel-container-box .main-block .container-list .carusel {
-            width: 9999px;
-            padding: 0; }
-            .carusel-container .carusel-container-box .main-block .container-list .carusel li {
-              width: 240px;
-              list-style: none;
-              float: left; }
-    .carusel-container .carusel-container-box {
-      float: left; }
-      .carusel-container .carusel-container-box .carousel-arrow-left {
-        position: absolute;
-        margin-top: 58px;
-        margin-left: 22px;
-        z-index: 5; }
-      .carusel-container .carusel-container-box .carousel-arrow-right {
-        position: absolute;
-        margin-top: 57px;
-        margin-left: 187px;
-        z-index: 5; }
+      .carusel-container .carusel-container-box .carousel-arrow-left-desk {
+        display: none; }
+      .carusel-container .carusel-container-box .carousel-arrow-right-desk {
+        display: none; }
       .carusel-container .carusel-container-box .main-block {
         width: 240px;
         overflow: hidden; }
@@ -742,6 +721,10 @@ The `sprites` mixin generates identical output to the CSS template
         margin-top: 57px;
         margin-left: 187px;
         z-index: 5; }
+      .carusel-container .carusel-container-box-3 .carousel-arrow-left-desk {
+        display: none; }
+      .carusel-container .carusel-container-box-3 .carousel-arrow-right-desk {
+        display: none; }
       .carusel-container .carusel-container-box-3 .main-block {
         width: 240px;
         overflow: hidden; }
@@ -802,7 +785,8 @@ The `sprites` mixin generates identical output to the CSS template
       margin-top: 15px;
       margin-left: 175px; }
   .activity {
-    height: 1050px; }
+    height: 1050px;
+    margin: 156px 1px 0; }
     .activity h2 {
       margin-bottom: 37px; }
     .activity .result div {
@@ -1184,10 +1168,10 @@ The `sprites` mixin generates identical output to the CSS template
   .carusel-container {
     display: block;
     overflow: hidden;
-    margin: 0 8px; }
+    margin: 0 3px; }
     .carusel-container .carusel-container-box {
       float: left;
-      margin-right: 16px; }
+      margin-right: 12px; }
       .carusel-container .carusel-container-box .carousel-arrow-left {
         position: absolute;
         margin-top: 58px;
@@ -1198,31 +1182,10 @@ The `sprites` mixin generates identical output to the CSS template
         margin-top: 57px;
         margin-left: 187px;
         z-index: 5; }
-      .carusel-container .carusel-container-box .main-block {
-        width: 240px;
-        overflow: hidden; }
-        .carusel-container .carusel-container-box .main-block .container-list {
-          float: left;
-          position: relative; }
-          .carusel-container .carusel-container-box .main-block .container-list .carusel {
-            width: 9999px;
-            padding: 0; }
-            .carusel-container .carusel-container-box .main-block .container-list .carusel li {
-              width: 240px;
-              list-style: none;
-              float: left; }
-    .carusel-container .carusel-container-box {
-      float: left; }
-      .carusel-container .carusel-container-box .carousel-arrow-left {
-        position: absolute;
-        margin-top: 58px;
-        margin-left: 22px;
-        z-index: 5; }
-      .carusel-container .carusel-container-box .carousel-arrow-right {
-        position: absolute;
-        margin-top: 57px;
-        margin-left: 187px;
-        z-index: 5; }
+      .carusel-container .carusel-container-box .carousel-arrow-left-desk {
+        display: none; }
+      .carusel-container .carusel-container-box .carousel-arrow-right-desk {
+        display: none; }
       .carusel-container .carusel-container-box .main-block {
         width: 240px;
         overflow: hidden; }
@@ -1248,6 +1211,10 @@ The `sprites` mixin generates identical output to the CSS template
         margin-top: 57px;
         margin-left: 187px;
         z-index: 5; }
+      .carusel-container .carusel-container-box-3 .carousel-arrow-left-desk {
+        display: none; }
+      .carusel-container .carusel-container-box-3 .carousel-arrow-right-desk {
+        display: none; }
       .carusel-container .carusel-container-box-3 .main-block {
         width: 240px;
         overflow: hidden; }
@@ -1308,7 +1275,8 @@ The `sprites` mixin generates identical output to the CSS template
       margin-top: 15px;
       margin-left: 175px; }
   .activity {
-    height: 1050px; }
+    height: 1050px;
+    margin: 156px 1px 0; }
     .activity h2 {
       margin-bottom: 37px; }
     .activity .result div {
@@ -1391,64 +1359,78 @@ The `sprites` mixin generates identical output to the CSS template
   section .step {
     margin-left: 10px; }
   .carusel-container {
-    margin: 0 247px; }
+    margin: 0 232px 0 252px; }
     .carusel-container .carusel-container-box {
       float: left;
       margin-right: 16px; }
       .carusel-container .carusel-container-box .carousel-arrow-left {
+        display: none; }
+      .carusel-container .carusel-container-box .carousel-arrow-right {
+        display: none; }
+      .carusel-container .carusel-container-box .carousel-arrow-left-desk {
+        display: block;
         position: absolute;
-        margin-top: 58px;
+        margin-top: 171px;
         margin-left: 22px;
         z-index: 5; }
-      .carusel-container .carusel-container-box .carousel-arrow-right {
+      .carusel-container .carusel-container-box .carousel-arrow-right-desk {
+        display: block;
         position: absolute;
-        margin-top: 57px;
+        margin-top: 171px;
         margin-left: 250px;
         z-index: 5; }
       .carusel-container .carusel-container-box .main-block {
+        position: relative;
         width: 300px;
         overflow: hidden; }
-        .carusel-container .carusel-container-box .main-block .container-list {
+        .carusel-container .carusel-container-box .main-block .container-list-desk {
           float: left;
           position: relative; }
-          .carusel-container .carusel-container-box .main-block .container-list .carusel {
-            display: none; }
-          .carusel-container .carusel-container-box .main-block .container-list .carusel-desk {
+          .carusel-container .carusel-container-box .main-block .container-list-desk .carusel-desk {
             display: block;
             width: 9999px;
             padding: 0; }
-            .carusel-container .carusel-container-box .main-block .container-list .carusel-desk li {
+            .carusel-container .carusel-container-box .main-block .container-list-desk .carusel-desk li {
               width: 300px;
               list-style: none;
               float: left; }
+        .carusel-container .carusel-container-box .main-block .carusel {
+          display: none; }
     .carusel-container .carusel-container-box-3 {
       float: left; }
       .carusel-container .carusel-container-box-3 .carousel-arrow-left {
+        display: none; }
+      .carusel-container .carusel-container-box-3 .carousel-arrow-right {
+        display: none; }
+      .carusel-container .carusel-container-box-3 .carousel-arrow-left-desk {
+        display: block;
         position: absolute;
-        margin-top: 58px;
+        margin-top: 171px;
         margin-left: 22px;
         z-index: 5; }
-      .carusel-container .carusel-container-box-3 .carousel-arrow-right {
+      .carusel-container .carusel-container-box-3 .carousel-arrow-right-desk {
+        display: block;
         position: absolute;
-        margin-top: 57px;
+        margin-top: 171px;
         margin-left: 250px;
         z-index: 5; }
       .carusel-container .carusel-container-box-3 .main-block {
+        position: relative;
         width: 300px;
         overflow: hidden; }
-        .carusel-container .carusel-container-box-3 .main-block .container-list {
+        .carusel-container .carusel-container-box-3 .main-block .container-list-desk {
           float: left;
           position: relative; }
-          .carusel-container .carusel-container-box-3 .main-block .container-list .carusel {
-            display: none; }
-          .carusel-container .carusel-container-box-3 .main-block .container-list .carusel-desk {
+          .carusel-container .carusel-container-box-3 .main-block .container-list-desk .carusel-desk {
             display: block;
             width: 9999px;
             padding: 0; }
-            .carusel-container .carusel-container-box-3 .main-block .container-list .carusel-desk li {
+            .carusel-container .carusel-container-box-3 .main-block .container-list-desk .carusel-desk li {
               width: 300px;
               list-style: none;
               float: left; }
+        .carusel-container .carusel-container-box-3 .main-block .carusel {
+          display: none; }
   .face {
     margin: 0 0 0 251px; }
     .face h2 {

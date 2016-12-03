@@ -34,6 +34,14 @@
       z-index: 5;
     }
 
+    .carousel-arrow-left-desk {
+      display: none;
+    }
+
+    .carousel-arrow-right-desk {
+      display: none;
+    }
+
     .main-block {
       width: 240px;
       overflow: hidden;
@@ -57,31 +65,38 @@
 }
 
 @mixin carusel-desk {
-    .carousel-arrow-left {
+  .carousel-arrow-left {
+    display: none;
+  }
+
+  .carousel-arrow-right {
+    display: none;
+  }
+
+    .carousel-arrow-left-desk {
+      display: block;
       position: absolute;
-      margin-top: 58px;
+      margin-top: 171px;
       margin-left: 22px;
       z-index: 5;
     }
 
-    .carousel-arrow-right {
+    .carousel-arrow-right-desk {
+      display: block;
       position: absolute;
-      margin-top: 57px;
+      margin-top: 171px;
       margin-left: 250px;
       z-index: 5;
     }
 
     .main-block {
+      position: relative;
       width: 300px;
       overflow: hidden;
 
-      .container-list {
+      .container-list-desk {
         float: left;
         position: relative;
-
-        .carusel {
-          display: none;
-        }
 
         .carusel-desk {
           display: block;
@@ -94,5 +109,10 @@
           }
         }
       }
+
+      .carusel {
+        display: none;
+      }
+
     }
 }
