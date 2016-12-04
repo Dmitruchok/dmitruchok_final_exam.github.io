@@ -775,6 +775,14 @@ The `sprites` mixin generates identical output to the CSS template
         display: none; }
       .carousel-container .carousel-container-box .carousel-arrow-right-desk {
         display: none; }
+      .carousel-container .carousel-container-box .carousel-arrow-left-desk-2 {
+        display: none; }
+      .carousel-container .carousel-container-box .carousel-arrow-right-desk-2 {
+        display: none; }
+      .carousel-container .carousel-container-box .carousel-arrow-left-desk-3 {
+        display: none; }
+      .carousel-container .carousel-container-box .carousel-arrow-right-desk-3 {
+        display: none; }
       .carousel-container .carousel-container-box .main-block {
         width: 240px;
         overflow: hidden; }
@@ -825,6 +833,14 @@ The `sprites` mixin generates identical output to the CSS template
         display: none; }
       .carousel-container .carousel-container-box .carousel-arrow-right-desk {
         display: none; }
+      .carousel-container .carousel-container-box .carousel-arrow-left-desk-2 {
+        display: none; }
+      .carousel-container .carousel-container-box .carousel-arrow-right-desk-2 {
+        display: none; }
+      .carousel-container .carousel-container-box .carousel-arrow-left-desk-3 {
+        display: none; }
+      .carousel-container .carousel-container-box .carousel-arrow-right-desk-3 {
+        display: none; }
       .carousel-container .carousel-container-box .main-block {
         width: 240px;
         overflow: hidden; }
@@ -873,6 +889,14 @@ The `sprites` mixin generates identical output to the CSS template
       .carousel-container .carousel-container-box-3 .carousel-arrow-left-desk {
         display: none; }
       .carousel-container .carousel-container-box-3 .carousel-arrow-right-desk {
+        display: none; }
+      .carousel-container .carousel-container-box-3 .carousel-arrow-left-desk-2 {
+        display: none; }
+      .carousel-container .carousel-container-box-3 .carousel-arrow-right-desk-2 {
+        display: none; }
+      .carousel-container .carousel-container-box-3 .carousel-arrow-left-desk-3 {
+        display: none; }
+      .carousel-container .carousel-container-box-3 .carousel-arrow-right-desk-3 {
         display: none; }
       .carousel-container .carousel-container-box-3 .main-block {
         width: 240px;
@@ -952,10 +976,10 @@ The `sprites` mixin generates identical output to the CSS template
       clear: both;
       padding: 10px 28px;
       margin-top: 15px;
-      margin-left: 175px; }
+      margin-left: 261px; }
   .activity {
     height: 1050px;
-    margin: 156px 1px 0; }
+    margin: 96px 1px 0; }
     .activity h2 {
       margin-bottom: 37px; }
     .activity .result div {
@@ -1399,6 +1423,14 @@ The `sprites` mixin generates identical output to the CSS template
         display: none; }
       .carousel-container .carousel-container-box .carousel-arrow-right-desk {
         display: none; }
+      .carousel-container .carousel-container-box .carousel-arrow-left-desk-2 {
+        display: none; }
+      .carousel-container .carousel-container-box .carousel-arrow-right-desk-2 {
+        display: none; }
+      .carousel-container .carousel-container-box .carousel-arrow-left-desk-3 {
+        display: none; }
+      .carousel-container .carousel-container-box .carousel-arrow-right-desk-3 {
+        display: none; }
       .carousel-container .carousel-container-box .main-block {
         width: 240px;
         overflow: hidden; }
@@ -1449,6 +1481,14 @@ The `sprites` mixin generates identical output to the CSS template
         display: none; }
       .carousel-container .carousel-container-box .carousel-arrow-right-desk {
         display: none; }
+      .carousel-container .carousel-container-box .carousel-arrow-left-desk-2 {
+        display: none; }
+      .carousel-container .carousel-container-box .carousel-arrow-right-desk-2 {
+        display: none; }
+      .carousel-container .carousel-container-box .carousel-arrow-left-desk-3 {
+        display: none; }
+      .carousel-container .carousel-container-box .carousel-arrow-right-desk-3 {
+        display: none; }
       .carousel-container .carousel-container-box .main-block {
         width: 240px;
         overflow: hidden; }
@@ -1497,6 +1537,14 @@ The `sprites` mixin generates identical output to the CSS template
       .carousel-container .carousel-container-box-3 .carousel-arrow-left-desk {
         display: none; }
       .carousel-container .carousel-container-box-3 .carousel-arrow-right-desk {
+        display: none; }
+      .carousel-container .carousel-container-box-3 .carousel-arrow-left-desk-2 {
+        display: none; }
+      .carousel-container .carousel-container-box-3 .carousel-arrow-right-desk-2 {
+        display: none; }
+      .carousel-container .carousel-container-box-3 .carousel-arrow-left-desk-3 {
+        display: none; }
+      .carousel-container .carousel-container-box-3 .carousel-arrow-right-desk-3 {
         display: none; }
       .carousel-container .carousel-container-box-3 .main-block {
         width: 240px;
@@ -1576,10 +1624,10 @@ The `sprites` mixin generates identical output to the CSS template
       clear: both;
       padding: 10px 28px;
       margin-top: 15px;
-      margin-left: 175px; }
+      margin-left: 261px; }
   .activity {
     height: 1050px;
-    margin: 156px 1px 0; }
+    margin: 96px 1px 0; }
     .activity h2 {
       margin-bottom: 37px; }
     .activity .result div {
