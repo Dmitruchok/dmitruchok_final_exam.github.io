@@ -30,6 +30,7 @@ var html = $( '#activity-pic-containar' ).html();
 
 $( '.search-button' ).click(function () {
   $( '.result' ).remove( '.result' );
+  $('.search-enter-text').val('');
   loadPicture();
 });
 
@@ -37,6 +38,7 @@ $( '.search-enter-text' ).keypress(function enterText( e ) {
   if( e.keyCode === 13 ) {
     $( '.result' ).remove( '.result' );
     e.preventDefault();
+    $('.search-enter-text').val('');
     loadPicture();
   };
 })

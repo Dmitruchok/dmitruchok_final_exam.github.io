@@ -17,6 +17,13 @@
     &::before {
       content: url('../img/hunter.png') ;
     }
+
+    @media (-webkit-min-device-pixel-ratio: 2) {
+    &::before {
+      background-image: url('../img/hunter@2x.png');
+      background-size: cover;
+      }
+    }
     @include section-face-img;
     .face-one-h4 {
       margin: 8px 0;
@@ -32,6 +39,13 @@
     padding: 8px 0 0 0;
     &::before {
       content: url('../img/marsha.png') ;
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 2) {
+    &::before {
+      background-image: url('../img/marsha@2x.png');
+      background-size: cover;
+      }
     }
     @include section-face-img;
     .face-two-h4 {
@@ -50,6 +64,12 @@
     &::before {
       content: url('../img/walker.png') ;
     }
+    @media (-webkit-min-device-pixel-ratio: 2) {
+    &::before {
+      background-image: url('../img/walker@2x.png');
+      background-size: cover;
+      }
+    }
     @include section-face-img;
     .face-three-h4 {
       @include section-face-h4;
@@ -66,6 +86,12 @@
     padding-top: 8px;
     &::before {
       content: url('../img/hunter4.png') ;
+    }
+    @media (-webkit-min-device-pixel-ratio: 2) {
+    &::before {
+      background-image: url('../img/hunter4@2x.png');
+      background-size: cover;
+      }
     }
     @include section-face-img;
     .face-four-h4 {

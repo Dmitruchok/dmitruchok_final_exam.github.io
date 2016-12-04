@@ -165,7 +165,14 @@ The `sprites` mixin generates identical output to the CSS template
         padding: 12px 50px;
         color: #f7f7f7;
         -webkit-border-radius: 20px;
-                border-radius: 20px; }
+                border-radius: 20px; } }
+
+@media (max-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  header {
+    background-image: url("../img/mobilibg@2x.png");
+    background-size: cover; } }
+
+@media (max-width: 320px) {
   section {
     text-align: center;
     margin: 35px 10px 0; }
@@ -199,7 +206,13 @@ The `sprites` mixin generates identical output to the CSS template
       margin: 0 auto;
       font-size: 15px; }
       .face .face-one-text::before {
-        content: url("../img/hunter.png"); }
+        content: url("../img/hunter.png"); } }
+    @media (max-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+      .face .face-one-text::before {
+        background-image: url("../img/hunter@2x.png");
+        background-size: cover; } }
+
+@media (max-width: 320px) {
       .face .face-one-text .face-one-h4 {
         margin: 8px 0;
         font-size: 14px; }
@@ -212,7 +225,13 @@ The `sprites` mixin generates identical output to the CSS template
       margin: 0 auto;
       font-size: 15px; }
       .face .face-two-text::before {
-        content: url("../img/marsha.png"); }
+        content: url("../img/marsha.png"); } }
+    @media (max-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+      .face .face-two-text::before {
+        background-image: url("../img/marsha@2x.png");
+        background-size: cover; } }
+
+@media (max-width: 320px) {
       .face .face-two-text .face-two-h4 {
         font-size: 14px;
         margin-top: 11px;
@@ -226,7 +245,13 @@ The `sprites` mixin generates identical output to the CSS template
       margin: 0 auto;
       font-size: 15px; }
       .face .face-three-text::before {
-        content: url("../img/walker.png"); }
+        content: url("../img/walker.png"); } }
+    @media (max-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+      .face .face-three-text::before {
+        background-image: url("../img/walker@2x.png");
+        background-size: cover; } }
+
+@media (max-width: 320px) {
       .face .face-three-text .face-three-h4 {
         font-size: 14px;
         margin-top: 12px;
@@ -240,7 +265,13 @@ The `sprites` mixin generates identical output to the CSS template
       margin: 0 auto;
       font-size: 15px; }
       .face .face-four-text::before {
-        content: url("../img/hunter4.png"); }
+        content: url("../img/hunter4.png"); } }
+    @media (max-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+      .face .face-four-text::before {
+        background-image: url("../img/hunter4@2x.png");
+        background-size: cover; } }
+
+@media (max-width: 320px) {
       .face .face-four-text .face-four-h4 {
         font-size: 14px;
         margin-top: 9px;
@@ -368,6 +399,10 @@ The `sprites` mixin generates identical output to the CSS template
           content: url("../img/fot-logo.png");
           display: block;
           margin-top: 5px; } }
+      @media (max-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+        footer .foot-box-two span::after {
+          background-image: url("../img/fot-logo@2x.png");
+          background-size: cover; } }
 
 @media (min-width: 668px) and (max-width: 768px) {
   header {
@@ -419,7 +454,14 @@ The `sprites` mixin generates identical output to the CSS template
         padding: 12px 50px;
         color: #f7f7f7;
         -webkit-border-radius: 20px;
-                border-radius: 20px; }
+                border-radius: 20px; } }
+
+@media (min-width: 668px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+  header {
+    background-image: url("../img/mobilibg@2x.png");
+    background-size: cover; } }
+
+@media (min-width: 668px) and (max-width: 768px) {
   section {
     text-align: center;
     margin: 35px 10px 0; }
@@ -453,7 +495,13 @@ The `sprites` mixin generates identical output to the CSS template
       margin: 0 auto;
       font-size: 15px; }
       .face .face-one-text::before {
-        content: url("../img/hunter.png"); }
+        content: url("../img/hunter.png"); } }
+    @media (min-width: 668px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+      .face .face-one-text::before {
+        background-image: url("../img/hunter@2x.png");
+        background-size: cover; } }
+
+@media (min-width: 668px) and (max-width: 768px) {
       .face .face-one-text .face-one-h4 {
         margin: 8px 0;
         font-size: 14px; }
@@ -466,7 +514,13 @@ The `sprites` mixin generates identical output to the CSS template
       margin: 0 auto;
       font-size: 15px; }
       .face .face-two-text::before {
-        content: url("../img/marsha.png"); }
+        content: url("../img/marsha.png"); } }
+    @media (min-width: 668px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+      .face .face-two-text::before {
+        background-image: url("../img/marsha@2x.png");
+        background-size: cover; } }
+
+@media (min-width: 668px) and (max-width: 768px) {
       .face .face-two-text .face-two-h4 {
         font-size: 14px;
         margin-top: 11px;
@@ -480,7 +534,13 @@ The `sprites` mixin generates identical output to the CSS template
       margin: 0 auto;
       font-size: 15px; }
       .face .face-three-text::before {
-        content: url("../img/walker.png"); }
+        content: url("../img/walker.png"); } }
+    @media (min-width: 668px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+      .face .face-three-text::before {
+        background-image: url("../img/walker@2x.png");
+        background-size: cover; } }
+
+@media (min-width: 668px) and (max-width: 768px) {
       .face .face-three-text .face-three-h4 {
         font-size: 14px;
         margin-top: 12px;
@@ -494,7 +554,13 @@ The `sprites` mixin generates identical output to the CSS template
       margin: 0 auto;
       font-size: 15px; }
       .face .face-four-text::before {
-        content: url("../img/hunter4.png"); }
+        content: url("../img/hunter4.png"); } }
+    @media (min-width: 668px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+      .face .face-four-text::before {
+        background-image: url("../img/hunter4@2x.png");
+        background-size: cover; } }
+
+@media (min-width: 668px) and (max-width: 768px) {
       .face .face-four-text .face-four-h4 {
         font-size: 14px;
         margin-top: 9px;
@@ -621,7 +687,13 @@ The `sprites` mixin generates identical output to the CSS template
         footer .foot-box-two span::after {
           content: url("../img/fot-logo.png");
           display: block;
-          margin-top: 5px; }
+          margin-top: 5px; } }
+      @media (min-width: 668px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+        footer .foot-box-two span::after {
+          background-image: url("../img/fot-logo@2x.png");
+          background-size: cover; } }
+
+@media (min-width: 668px) and (max-width: 768px) {
   header {
     background: url("../img/tabletbg.png") no-repeat;
     background-size: cover;
@@ -654,7 +726,14 @@ The `sprites` mixin generates identical output to the CSS template
         font-size: 25px;
         margin: 0 auto 34px; }
       header .header-text-container input {
-        padding: 12px 25px; }
+        padding: 12px 25px; } }
+
+@media (min-width: 668px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+  header {
+    background-image: url("../img/tabletbg@2x.png");
+    background-size: cover; } }
+
+@media (min-width: 668px) and (max-width: 768px) {
   section {
     text-align: center;
     margin: 95px 10px 0; }
@@ -999,7 +1078,14 @@ The `sprites` mixin generates identical output to the CSS template
         padding: 12px 50px;
         color: #f7f7f7;
         -webkit-border-radius: 20px;
-                border-radius: 20px; }
+                border-radius: 20px; } }
+
+@media (min-width: 1025px) and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
+  header {
+    background-image: url("../img/mobilibg@2x.png");
+    background-size: cover; } }
+
+@media (min-width: 1025px) and (max-width: 1440px) {
   section {
     text-align: center;
     margin: 35px 10px 0; }
@@ -1033,7 +1119,13 @@ The `sprites` mixin generates identical output to the CSS template
       margin: 0 auto;
       font-size: 15px; }
       .face .face-one-text::before {
-        content: url("../img/hunter.png"); }
+        content: url("../img/hunter.png"); } }
+    @media (min-width: 1025px) and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
+      .face .face-one-text::before {
+        background-image: url("../img/hunter@2x.png");
+        background-size: cover; } }
+
+@media (min-width: 1025px) and (max-width: 1440px) {
       .face .face-one-text .face-one-h4 {
         margin: 8px 0;
         font-size: 14px; }
@@ -1046,7 +1138,13 @@ The `sprites` mixin generates identical output to the CSS template
       margin: 0 auto;
       font-size: 15px; }
       .face .face-two-text::before {
-        content: url("../img/marsha.png"); }
+        content: url("../img/marsha.png"); } }
+    @media (min-width: 1025px) and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
+      .face .face-two-text::before {
+        background-image: url("../img/marsha@2x.png");
+        background-size: cover; } }
+
+@media (min-width: 1025px) and (max-width: 1440px) {
       .face .face-two-text .face-two-h4 {
         font-size: 14px;
         margin-top: 11px;
@@ -1060,7 +1158,13 @@ The `sprites` mixin generates identical output to the CSS template
       margin: 0 auto;
       font-size: 15px; }
       .face .face-three-text::before {
-        content: url("../img/walker.png"); }
+        content: url("../img/walker.png"); } }
+    @media (min-width: 1025px) and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
+      .face .face-three-text::before {
+        background-image: url("../img/walker@2x.png");
+        background-size: cover; } }
+
+@media (min-width: 1025px) and (max-width: 1440px) {
       .face .face-three-text .face-three-h4 {
         font-size: 14px;
         margin-top: 12px;
@@ -1074,7 +1178,13 @@ The `sprites` mixin generates identical output to the CSS template
       margin: 0 auto;
       font-size: 15px; }
       .face .face-four-text::before {
-        content: url("../img/hunter4.png"); }
+        content: url("../img/hunter4.png"); } }
+    @media (min-width: 1025px) and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
+      .face .face-four-text::before {
+        background-image: url("../img/hunter4@2x.png");
+        background-size: cover; } }
+
+@media (min-width: 1025px) and (max-width: 1440px) {
       .face .face-four-text .face-four-h4 {
         font-size: 14px;
         margin-top: 9px;
@@ -1201,7 +1311,13 @@ The `sprites` mixin generates identical output to the CSS template
         footer .foot-box-two span::after {
           content: url("../img/fot-logo.png");
           display: block;
-          margin-top: 5px; }
+          margin-top: 5px; } }
+      @media (min-width: 1025px) and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
+        footer .foot-box-two span::after {
+          background-image: url("../img/fot-logo@2x.png");
+          background-size: cover; } }
+
+@media (min-width: 1025px) and (max-width: 1440px) {
   header {
     background: url("../img/tabletbg.png") no-repeat;
     background-size: cover;
@@ -1234,7 +1350,14 @@ The `sprites` mixin generates identical output to the CSS template
         font-size: 25px;
         margin: 0 auto 34px; }
       header .header-text-container input {
-        padding: 12px 25px; }
+        padding: 12px 25px; } }
+
+@media (min-width: 1025px) and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
+  header {
+    background-image: url("../img/tabletbg@2x.png");
+    background-size: cover; } }
+
+@media (min-width: 1025px) and (max-width: 1440px) {
   section {
     text-align: center;
     margin: 95px 10px 0; }
@@ -1535,7 +1658,14 @@ The `sprites` mixin generates identical output to the CSS template
       margin-left: 156px; }
       header .header-text-container h2 {
         width: 579px;
-        margin: 20px auto 25px; }
+        margin: 20px auto 25px; } }
+
+@media (min-width: 1025px) and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
+  header {
+    background-image: url("../img/desktopbg@2x.png");
+    background-size: cover; } }
+
+@media (min-width: 1025px) and (max-width: 1440px) {
   section .step {
     margin-left: 10px; }
   .carousel-container {

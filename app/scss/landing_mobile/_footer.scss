@@ -66,6 +66,12 @@ footer {
         display: block;
         margin-top: 5px;
       }
+      @media (-webkit-min-device-pixel-ratio: 2) {
+      &::after {
+        background-image: url('../img/fot-logo@2x.png');
+        background-size: cover;
+        }
+      }
     }
   }
 }
