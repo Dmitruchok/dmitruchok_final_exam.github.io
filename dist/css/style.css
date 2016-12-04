@@ -165,7 +165,8 @@ The `sprites` mixin generates identical output to the CSS template
         padding: 12px 50px;
         color: #f7f7f7;
         -webkit-border-radius: 20px;
-                border-radius: 20px; } }
+                border-radius: 20px;
+        cursor: pointer; } }
 
 @media (max-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
   header {
@@ -288,7 +289,8 @@ The `sprites` mixin generates identical output to the CSS template
       padding: 4% 26%;
       color: #ff4e50;
       -webkit-border-radius: 20px;
-              border-radius: 20px; }
+              border-radius: 20px;
+      cursor: pointer; }
     .face .desk-box {
       display: none; }
   .activity {
@@ -351,7 +353,8 @@ The `sprites` mixin generates identical output to the CSS template
       color: #f7f7f7;
       -webkit-border-radius: 20px;
               border-radius: 20px;
-      font-size: 14px; }
+      font-size: 14px;
+      cursor: pointer; }
   footer {
     text-align: center;
     font-family: "Montserrat-bold"; }
@@ -454,7 +457,8 @@ The `sprites` mixin generates identical output to the CSS template
         padding: 12px 50px;
         color: #f7f7f7;
         -webkit-border-radius: 20px;
-                border-radius: 20px; } }
+                border-radius: 20px;
+        cursor: pointer; } }
 
 @media (min-width: 668px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
   header {
@@ -577,7 +581,8 @@ The `sprites` mixin generates identical output to the CSS template
       padding: 4% 26%;
       color: #ff4e50;
       -webkit-border-radius: 20px;
-              border-radius: 20px; }
+              border-radius: 20px;
+      cursor: pointer; }
     .face .desk-box {
       display: none; }
   .activity {
@@ -640,7 +645,8 @@ The `sprites` mixin generates identical output to the CSS template
       color: #f7f7f7;
       -webkit-border-radius: 20px;
               border-radius: 20px;
-      font-size: 14px; }
+      font-size: 14px;
+      cursor: pointer; }
   footer {
     text-align: center;
     font-family: "Montserrat-bold"; }
@@ -973,6 +979,7 @@ The `sprites` mixin generates identical output to the CSS template
           .face .section-face-box .right-section .section-face-four .face-four-text {
             width: 100%; }
     .face .section-face-input {
+      cursor: pointer;
       clear: both;
       padding: 10px 28px;
       margin-top: 15px;
@@ -1102,7 +1109,8 @@ The `sprites` mixin generates identical output to the CSS template
         padding: 12px 50px;
         color: #f7f7f7;
         -webkit-border-radius: 20px;
-                border-radius: 20px; } }
+                border-radius: 20px;
+        cursor: pointer; } }
 
 @media (min-width: 1025px) and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
   header {
@@ -1225,7 +1233,8 @@ The `sprites` mixin generates identical output to the CSS template
       padding: 4% 26%;
       color: #ff4e50;
       -webkit-border-radius: 20px;
-              border-radius: 20px; }
+              border-radius: 20px;
+      cursor: pointer; }
     .face .desk-box {
       display: none; }
   .activity {
@@ -1288,7 +1297,8 @@ The `sprites` mixin generates identical output to the CSS template
       color: #f7f7f7;
       -webkit-border-radius: 20px;
               border-radius: 20px;
-      font-size: 14px; }
+      font-size: 14px;
+      cursor: pointer; }
   footer {
     text-align: center;
     font-family: "Montserrat-bold"; }
@@ -1621,6 +1631,7 @@ The `sprites` mixin generates identical output to the CSS template
           .face .section-face-box .right-section .section-face-four .face-four-text {
             width: 100%; }
     .face .section-face-input {
+      cursor: pointer;
       clear: both;
       padding: 10px 28px;
       margin-top: 15px;
