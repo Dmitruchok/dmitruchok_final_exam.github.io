@@ -1,17 +1,33 @@
-.carusel-container {
+.carousel-container {
   margin: 0 232px 0 252px;
 
 
-  .carusel-container-box {
+  .carousel-container-box {
     float: left;
     margin-right: 16px;
-    @include carusel-desk;
+    @include carousel-desk;
+
+    .carousel-arrow-left-desk {
+      display: block;
+      position: absolute;
+      margin-top: 171px;
+      margin-left: 22px;
+      z-index: 5;
+    }
+
+    .carousel-arrow-right-desk {
+      display: block;
+      position: absolute;
+      margin-top: 171px;
+      margin-left: 250px;
+      z-index: 5;
+    }
 
       // .container-list-desk {
       //   float: left;
       //   position: relative;
       //
-      //   .carusel-desk {
+      //   .carousel-desk {
       //     display: block;
       //     width: 9999px;
       //     padding: 0;
@@ -24,10 +40,10 @@
       // }
   }
 
-  .carusel-container-box {
+  .carousel-container-box {
     float: left;
     margin-right: 16px;
-    @include carusel-desk;
+    @include carousel-desk;
     .carousel-arrow-left-desk-2 {
       display: block;
       position: absolute;
@@ -48,7 +64,7 @@
         float: left;
         position: relative;
 
-        .carusel-desk {
+        .carousel-desk {
           display: block;
           width: 9999px;
           padding: 0;
@@ -61,9 +77,9 @@
       }
   }
 
-  .carusel-container-box-3 {
+  .carousel-container-box-3 {
     float: left;
-    @include carusel-desk;
+    @include carousel-desk;
 
     .carousel-arrow-left-desk-3 {
       display: block;
@@ -85,7 +101,7 @@
         float: left;
         position: relative;
 
-        .carusel-desk {
+        .carousel-desk {
           display: block;
           width: 9999px;
           padding: 0;

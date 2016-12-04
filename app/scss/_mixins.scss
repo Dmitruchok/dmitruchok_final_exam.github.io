@@ -19,7 +19,7 @@
 }
 
 
-@mixin carusel {
+@mixin carousel {
     .carousel-arrow-left {
       position: absolute;
       margin-top: 58px;
@@ -50,7 +50,7 @@
         float: left;
         position: relative;
 
-        .carusel {
+        .carousel {
           width: 9999px;
           padding: 0;
           li {
@@ -63,7 +63,7 @@
     }
 }
 
-@mixin carusel-desk {
+@mixin carousel-desk {
   .carousel-arrow-left {
     display: none;
   }
@@ -97,7 +97,7 @@
         float: left;
         position: relative;
 
-        .carusel-desk {
+        .carousel-desk {
           display: block;
           width: 9999px;
           padding: 0;
@@ -109,7 +109,7 @@
         }
       }
 
-      .carusel {
+      .carousel {
         display: none;
       }
 

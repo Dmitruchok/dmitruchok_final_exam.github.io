@@ -1,15 +1,15 @@
-.carusel-container {
+.carousel-container {
   display: block;
   overflow: hidden;
   // margin: 0 8px;
     margin: 0 3px;
 
 
-  .carusel-container-box {
+  .carousel-container-box {
     float: left;
     // margin-right: 16px;
     margin-right: 12px;
-    @include carusel;
+    @include carousel;
     .carousel-arrow-left {
       position: absolute;
       margin-top: 58px;
@@ -27,7 +27,7 @@
     .container-list {
       float: left;
       position: relative;
-      .carusel {
+      .carousel {
         width: 9999px;
         padding: 0;
         li {
@@ -40,11 +40,11 @@
   }
 
 
-  .carusel-container-box {
+  .carousel-container-box {
     float: left;
     // margin-right: 16px;
     margin-right: 12px;
-    @include carusel;
+    @include carousel;
     .carousel-arrow-left-2 {
       position: absolute;
       margin-top: 58px;
@@ -62,7 +62,7 @@
     .container-list-2 {
       float: left;
       position: relative;
-      .carusel {
+      .carousel {
         width: 9999px;
         padding: 0;
         li {
@@ -75,9 +75,9 @@
 
   }
 
-  .carusel-container-box-3 {
+  .carousel-container-box-3 {
     float: left;
-    @include carusel;
+    @include carousel;
     .carousel-arrow-left-3 {
       position: absolute;
       margin-top: 58px;
@@ -95,7 +95,7 @@
     .container-list-3 {
       float: left;
       position: relative;
-      .carusel {
+      .carousel {
         width: 9999px;
         padding: 0;
         li {
@@ -107,7 +107,7 @@
     }
   }
 
-  .carusel-desk {
+  .carousel-desk {
     display: none;
   }
 
