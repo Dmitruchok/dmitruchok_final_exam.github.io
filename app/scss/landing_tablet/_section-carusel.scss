@@ -10,14 +10,105 @@
     // margin-right: 16px;
     margin-right: 12px;
     @include carusel;
+    .carousel-arrow-left {
+      position: absolute;
+      margin-top: 58px;
+      margin-left: 22px;
+      z-index: 5;
+    }
+
+    .carousel-arrow-right {
+      position: absolute;
+      margin-top: 57px;
+      margin-left: 187px;
+      z-index: 5;
+    }
+
+    .container-list {
+      float: left;
+      position: relative;
+      .carusel {
+        width: 9999px;
+        padding: 0;
+        li {
+          width: 240px;
+          list-style: none;
+          float: left;
+        }
+      }
+    }
+  }
+
+
+  .carusel-container-box {
+    float: left;
+    // margin-right: 16px;
+    margin-right: 12px;
+    @include carusel;
+    .carousel-arrow-left-2 {
+      position: absolute;
+      margin-top: 58px;
+      margin-left: 22px;
+      z-index: 5;
+    }
+
+    .carousel-arrow-right-2 {
+      position: absolute;
+      margin-top: 57px;
+      margin-left: 187px;
+      z-index: 5;
+    }
+
+    .container-list-2 {
+      float: left;
+      position: relative;
+      .carusel {
+        width: 9999px;
+        padding: 0;
+        li {
+          width: 240px;
+          list-style: none;
+          float: left;
+        }
+      }
+    }
+
   }
 
   .carusel-container-box-3 {
     float: left;
     @include carusel;
+    .carousel-arrow-left-3 {
+      position: absolute;
+      margin-top: 58px;
+      margin-left: 22px;
+      z-index: 5;
+    }
+
+    .carousel-arrow-right-3 {
+      position: absolute;
+      margin-top: 57px;
+      margin-left: 187px;
+      z-index: 5;
+    }
+
+    .container-list-3 {
+      float: left;
+      position: relative;
+      .carusel {
+        width: 9999px;
+        padding: 0;
+        li {
+          width: 240px;
+          list-style: none;
+          float: left;
+        }
+      }
+    }
   }
 
   .carusel-desk {
     display: none;
   }
+
 }

@@ -49,7 +49,6 @@
       .container-list {
         float: left;
         position: relative;
-        // left: -240px;
 
         .carusel {
           width: 9999px;
@@ -73,21 +72,21 @@
     display: none;
   }
 
-    .carousel-arrow-left-desk {
-      display: block;
-      position: absolute;
-      margin-top: 171px;
-      margin-left: 22px;
-      z-index: 5;
-    }
-
-    .carousel-arrow-right-desk {
-      display: block;
-      position: absolute;
-      margin-top: 171px;
-      margin-left: 250px;
-      z-index: 5;
-    }
+    // .carousel-arrow-left-desk {
+    //   display: block;
+    //   position: absolute;
+    //   margin-top: 171px;
+    //   margin-left: 22px;
+    //   z-index: 5;
+    // }
+    //
+    // .carousel-arrow-right-desk {
+    //   display: block;
+    //   position: absolute;
+    //   margin-top: 171px;
+    //   margin-left: 250px;
+    //   z-index: 5;
+    // }
 
     .main-block {
       position: relative;
