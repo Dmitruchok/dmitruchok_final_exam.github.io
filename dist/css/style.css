@@ -182,7 +182,7 @@ The `sprites` mixin generates identical output to the CSS template
       text-align: left; }
     section .carusel-container {
       display: none; }
-  .carusel-container {
+  .carousel-container {
     display: none; }
   .face {
     text-align: center;
@@ -436,7 +436,7 @@ The `sprites` mixin generates identical output to the CSS template
       text-align: left; }
     section .carusel-container {
       display: none; }
-  .carusel-container {
+  .carousel-container {
     display: none; }
   .face {
     text-align: center;
@@ -1016,7 +1016,7 @@ The `sprites` mixin generates identical output to the CSS template
       text-align: left; }
     section .carusel-container {
       display: none; }
-  .carusel-container {
+  .carousel-container {
     display: none; }
   .face {
     text-align: center;
